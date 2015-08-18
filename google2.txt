@@ -1,0 +1,23 @@
+1 Given a binary tree, check whether it is a complete binary tree.
+
+
+----------------------
+Problem 2：
+
+Bowen's question:
+Given a set of person labeled from 1 through N. Given some items to show the relationship between them.
+ There are two kinds of relationship:
+ 1. X Y Friend, means X and Y are friend.
+ 2. X Y Enemy, means X and Y are enemy.
+ Two rules for relationship:
+ 1. If X and Y are friend, Y and Z are friend, then X and Z are friend.
+ 2. If X and Y are enemy, Y and Z are enemy, then X and Z are friend.
+ Given a set of queries, each has two number X Y, calculate the relationship between X and Y (Friend, Enemy or No relationship).
+
+
+-----------------------
+给一个二叉树，转化成线索二叉树
+
+
+-----------------------
+求逆序数。忘了线段树求逆序数的方法
