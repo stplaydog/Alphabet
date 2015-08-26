@@ -1,0 +1,15 @@
+1) Design a URL shortening service.
+
+2) How would you design the feature in LinkedIn where it computes how many hops there are between you and another person?
+
+3) If you were to design a web platform for online chess games, how would you do that?
+
+-------------
+David Malan
+1) Vertical scaling
+2) Horizonal scaling
+    * load balancing 
+    * cookies
+    * php
+    * cache
+    * replication (between dbs)
