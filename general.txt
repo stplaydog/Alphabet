@@ -25,7 +25,8 @@ http://www.topcoder.com/tc?module=Static&d1=tutorials&d2=alg_index
 
 * Many of the questions asked in Google interviews are open-ended because our engineers are looking to see how you engage the problem.  
 Be sure to talk through your thought process about the questions you are asked, 
-as well as your approach to problems and solutions.  Ask specific questions if you need more clarification.
+as well as your approach to problems and solutions.  
+Ask specific questions if you need more clarification.
 
 * Think about ways to improve the solution you'll present.  
 In many cases, the first answer that springs to mind may need some refining.  
