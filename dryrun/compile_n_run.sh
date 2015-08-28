@@ -9,3 +9,6 @@ g++ check_parlingdrom.cpp -o check_parlingdrom -g
 
 g++ find_middle.cpp -o find_middle -g
 ./find_middle
+
+g++ luckysum.cpp -o luckysum -g
+./luckysum

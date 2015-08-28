@@ -33,7 +33,8 @@ In this case you can simply add all numbers stored in array, and total sum shoul
 Now just subtract actual sum to expected sum, and that is your duplicate number. 
 Of course there is a brute force way of checking each number against all other numbers, 
 but that will result in performance of O(n^2) which is not good. 
-By the way this trick will not work if array have multiple duplicates or its not numbers forming arithmetic progression. Here is example of one way to find duplicate number in array.
+By the way this trick will not work if array have multiple duplicates or its not numbers forming arithmetic progression. 
+Here is example of one way to find duplicate number in array.
 
 -------------------------------------------------------------
 Question 6 : How to reverse String in Java ?
@@ -53,22 +54,23 @@ I have always send couple of questions from searching and sorting in data struct
 Bubble sort is one of the simplest sorting algorithm but if you ask anyone to implement on the spot it gives you an opportunity to gauge programming skills of a candidate. 
 See How to sort array using Bubble Sort in Java for complete solution of this datastrucutre interview question.
 
-
-
+-------------------------------------------------------------
 Question 8 : What is difference between Stack and Queue data structure ?
 
 One of the classical datastrucutre interview question. 
 I guess every one know, No? 
 Any way main difference is that Stack is LIFO(Last In First Out) data structure while Queue is a FIFO(First In First Out) data structure.
 
+-------------------------------------------------------------
+Question 9 : How do you find duplicates in array if there is more than one duplicate?
 
+Sometime this is asked as follow-up question of earlier datastrucutre interview question, related to finding duplicates in Array. 
+One way of solving this problem is using a Hashtable or HashMap data structure. You can traverse through array, 
+and store each number as key and number of occurrence as value. At the end of traversal you can find all duplicate numbers, 
+for which occurrence is more than one. In Java if a number already exists in HashMap then calling get(index) will return number otherwise it return null. 
+this property can be used to insert or update numbers in HashMap.
 
-** Question 9 : How do you find duplicates in array if there is more than one duplicate?
-
-Sometime this is asked as follow-up question of earlier datastrucutre interview question, related to finding duplicates in Array. One way of solving this problem is using a Hashtable or HashMap data structure. You can traverse through array, and store each number as key and number of occurrence as value. At the end of traversal you can find all duplicate numbers, for which occurrence is more than one. In Java if a number already exists in HashMap then calling get(index) will return number otherwise it return null. this property can be used to insert or update numbers in HashMap.
-
-
-
+-------------------------------------------------------------
 Question 10 : What is difference between Singly Linked List and Doubly Linked List data structure?
 
 This is another classical interview question on data structure, 
@@ -79,20 +81,25 @@ and there is no pointer to previous node, which means you can not traverse back 
 On the other hand doubly linked list maintains two pointers, 
 towards next and previous node, which allows you to navigate in both direction in any linked list.
 
+-------------------------------------------------------------
+Question 11 : Write Java program to print Fibonacci series ?
 
+This is not a data structures question, but a programming one, which many times appear during data structure interview. 
+Fibonacci series is a mathematical series, where each number is sum of previous two numbers e.g. 1,1, 2, 3, 5, 8, 13, 21. 
+Interviewer is often interested in two things, a function which returns nth number in Fibonacci series and solving this problem using recursion in Java. 
+Though, its easy question, recursion part often confuses beginners. See this link to find nth Fibonacci number in Java.
 
-** Question 11 : Write Java program to print Fibonacci series ?
-
-This is not a data structures question, but a programming one, which many times appear during data structure interview. Fibonacci series is a mathematical series, where each number is sum of previous two numbers e.g. 1,1, 2, 3, 5, 8, 13, 21. Interviewer is often interested in two things, a function which returns nth number in Fibonacci series and solving this problem using recursion in Java. Though, its easy question, recursion part often confuses beginners. See this link to find nth Fibonacci number in Java.
-
-
-
+-------------------------------------------------------------
 ** Question 12 : Write Java program to check if a number is palindrome or not?
 
-This is similar to previous question, not directly related to data structures, but quite popular along with other questions. A number is called palindrome, if reverse of number is equal to number itself. Interviewer ask to solve this problem without taking help from Java API or any open source library. Any way it’s simple question, you can use division operator (/) and remainder operator (%) to solve this question. Just remember, division operator can be used to get rid of last digit e.g. 1234/10 will give you 123, and modulus operator can give you last digit e.g. 1234%10 will return 4. By the way, here is a Java program check if number is palindrome or not.
+This is similar to previous question, not directly related to data structures, but quite popular along with other questions. 
+A number is called palindrome, if reverse of number is equal to number itself. 
+Interviewer ask to solve this problem without taking help from Java API or any open source library. 
+Any way it’s simple question, you can use division operator (/) and remainder operator (%) to solve this question. 
+Just remember, division operator can be used to get rid of last digit e.g. 1234/10 will give you 123, 
+and modulus operator can give you last digit e.g. 1234%10 will return 4. By the way, here is a Java program check if number is palindrome or not.
 
-
-
+-------------------------------------------------------------
 ** Question 13 : What is binary search tree?
 
 This is a data structure question from Tree data structures. 
@@ -101,15 +108,13 @@ right sub tree contains keys with higher node value than root, and there should 
 Apart from definition, interview can ask you to implement binary search tree in Java and questions on tree traversal e.g. 
 IN order, preorder, and post order traversals are quite popular data structure question.
 
-
-
+-------------------------------------------------------------
 ** Question 14 : How to reverse linked list using recursion and iteration?
 
 This is another good question on data structures. There are many algorithm to reverse linked list and you can search of them using google. 
 I am thinking of writing another blog post to explain linked list reversal and will share with you later.
 
-
-
+-------------------------------------------------------------
 ** Question 15 : Write a Java program to implement Stack in Java?
 
 You can implement Stack by using array or linked list. 
@@ -118,9 +123,3 @@ Both push() and pop() should be happen at top of stack, which you need to keep t
 It’s also good if you can implement utility methods like contains(), isEmpty() etc. 
 By the way JDK has java.util.Stack class and you can check it’s code to get an idea. 
 You can also check Effective Java book, where Josh Bloch has explains how an incorrect implementation of stack can cause memory leak in Java.
-
-
-That's all on this list of data structure interview questions and answers. This is one topic, which is always asked in any programming interview, doesn't matter if you are C, C++, or Java developer, basic knowledge of data structure like array, linked list, stack, queue, tree are must to clear any programming interview.
-
-
-Read more: http://javarevisited.blogspot.com/2013/03/top-15-data-structures-algorithm-interview-questions-answers-java-programming.html#ixzz3juItrC7g
