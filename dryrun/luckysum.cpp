@@ -13,7 +13,7 @@ bool match(int64_t one, int64_t two, string note)
 
     int64_t sum = one + two;
     char sum_string[64];
-    snprintf(sum_string, 64, "%d", sum);
+    snprintf(sum_string, 64, "%lld", sum);
     string s_s(sum_string);
 
     if(s_s.length() != note.length())
@@ -66,8 +66,8 @@ int64_t check_comb(int64_t one, string note)
             back_trace = true;
             last_try = two % 10;
         }
-        return ret;
     }
+    return ret;
 }
 
 int64_t dfs(string note)
@@ -114,20 +114,20 @@ int main(int argc, char* argv[])
     int64_t ret = dfs(note);
     assert(ret == 8);
 
-    string note = "?1";
-    int64_t ret = dfs(note);
+    note = "?1";
+    ret = dfs(note);
     assert(ret == 11);
 
-    string note = "4?8";
-    int64_t ret = dfs(note);
+    note = "4?8";
+    ret = dfs(note);
     assert(ret == 448);
 
-    string note = "2??";
-    int64_t ret = dfs(note);
+    note = "2??";
+    ret = dfs(note);
     assert(ret == -1);
 
-    string note = "??????????????"
-    int64_t ret = dfs(note);
+    note = "??????????????";
+    ret = dfs(note);
     assert(ret == 11888888888888);
 
     return 1;

@@ -167,6 +167,7 @@ bool rm(Node *root, int _val)
         }
         delete right_leftmost;
     }
+    return ret;
 }
 
 
