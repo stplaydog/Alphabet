@@ -12,3 +12,6 @@ g++ find_middle.cpp -o find_middle -g
 
 g++ luckysum.cpp -o luckysum -g
 ./luckysum
+
+g++ m_sort.cpp -o m_sort -g
+./m_sort

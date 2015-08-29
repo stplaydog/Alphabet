@@ -5,20 +5,40 @@
 #include <cassert>
 #include <iostream>
 
+
 using namespace std;
 
-bool match(int64_t one, int64_t two, string note)
+int64_t get_max(string note)
 {
-    bool ret = true;
+    int64_t ret = -1;
+    string tmp = "";
+    for(int i=0; i<note.length(); i++)
+    {
+        if(note[i] == '?')
+        {
+            tmp+="9";
+        }
+        else
+        {
+            tmp += note[i];
+        }
+    }
+    ret = atol(tmp.c_str());
+    return ret; 
+}
 
+int64_t match(int64_t one, int64_t two, string note)
+{
     int64_t sum = one + two;
+    int64_t ret = sum;
+
     char sum_string[64];
     snprintf(sum_string, 64, "%lld", sum);
     string s_s(sum_string);
 
     if(s_s.length() != note.length())
     {
-        ret = false;
+        ret = -1;
     }
     else
     {
@@ -26,7 +46,7 @@ bool match(int64_t one, int64_t two, string note)
         {
             if(s_s[i] != note[i] && note[i] != '?')
             {
-                ret = false;
+                ret = -1;
                 break;
             }
         }
@@ -34,100 +54,88 @@ bool match(int64_t one, int64_t two, string note)
     return ret;
 }
 
-int64_t check_comb(int64_t one, string note)
+int64_t min(int64_t one, int64_t two, int64_t three, int64_t four)
 {
-    int64_t depth = 0;
-    int64_t two = 0;
-    bool back_trace = false;
-    int64_t last_try = -1;
-    int64_t ret = -1;
+    if((one<two||two==-1) 
+        && (one <three || three == -1) 
+        && (one<four || four == -1))
+        return one;
+    if((two<one||one==-1) 
+        && (two <three || three == -1) 
+        && (two<four || four == -1))
+        return two;
+    if((three<one||one==-1) 
+        && (three <two || two == -1) 
+        && (three<four || four == -1))
+        return three;
+    else
+        return four;
+}
 
-    while(depth<note.length())
+int64_t check_comb(int64_t one, int64_t two, string note)
+{
+    int64_t sum = one + two;
+    int64_t ret = match(one, two, note);
+    if(ret == -1 && one+two*10<get_max(note))
     {
-        /* check two here */
-        if (match(one, two, note))
-        {
-            ret = one + two;
-            break;
-        }
-
-        if(back_trace == false)
-        {
-            two = two * 10 + 4;
-        }
-        else if(last_try == 4)
-        {
-            two = two *10 + 7;
-            back_trace = false;
-        }
-        else
-        {
-            two = two / 10;
-            back_trace = true;
-            last_try = two % 10;
-        }
+        ret = check_comb(one, two*10+4, note);
+    }
+    if(ret == -1 && one+two*10<get_max(note))
+    {
+        ret = check_comb(one, two*10+7, note);
     }
     return ret;
 }
 
-int64_t dfs(string note)
+int64_t dfs(int64_t one, string note)
 {
-    int64_t depth = 0;
-    int64_t one = 0;
-    bool back_trace = false;
-    int64_t last_try = -1;
-    int64_t ret = -1;
+    int64_t ret3=-1, ret4=-1;
+    int64_t ret1 = check_comb(one, 4, note);
+    int64_t ret2 = check_comb(one, 7, note);
 
-    while(depth<note.length())
+
+    if(one*10 < get_max(note))
     {
-        /* check one here */
-        int64_t comb = check_comb(one, note);
-        if(comb != -1)
-        {
-            ret = comb;
-            break;
-        }
-
-        if(back_trace == false)
-        {
-            one = one * 10 + 4;
-        }
-        else if(last_try == 4)
-        {
-            one = one *10 + 7;
-            back_trace = false;
-        }
-        else
-        {
-            one = one / 10;
-            back_trace = true;
-            last_try = one % 10;
-        }
+        ret3 = dfs(one*10+4, note);
+        ret4 = dfs(one*10+7, note);
     }
-    return ret;
+
+    return min(ret1, ret2, ret3, ret4);
+}
+
+int64_t check(string note)
+{
+    int64_t ret1 = -1, ret2 = -1;
+    ret1 = dfs(4, note);
+    ret2 = dfs(7, note);
+    if(ret1 == -1 && ret2 != -1)
+        return ret2;
+    if(ret1 != -1 && ret2 == -1)
+        return ret1;
+    return ret1<ret2 ? ret1:ret2;
 }
 
 int main(int argc, char* argv[])
 {
 
     string note = "?";
-    int64_t ret = dfs(note);
+    int64_t ret = check(note);
     assert(ret == 8);
 
     note = "?1";
-    ret = dfs(note);
+    ret = check(note);
     assert(ret == 11);
 
     note = "4?8";
-    ret = dfs(note);
+    ret = check(note);
     assert(ret == 448);
 
     note = "2??";
-    ret = dfs(note);
+    ret = check(note);
     assert(ret == -1);
 
     note = "??????????????";
-    ret = dfs(note);
+    ret = check(note);
     assert(ret == 11888888888888);
 
     return 1;

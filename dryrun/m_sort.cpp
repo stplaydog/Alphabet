@@ -1,32 +1,12 @@
-/**
- * @brief    this is the merge sort algorithm.
- *
- * @param[out]    num    array to be sorted
- * @param[in]     left   left position
- * @param[in]     right  right position
- *
- * @return    N/A
- **/
-void m_sort(int *num, int left, int right)
-{
-    int mid;
-    if(left < right)
-    {
-        mid = (right-left)/2 + 1;
-        m_sort(num, left, mid);
-        m_sort(num, mid+1, right);
-        merge(num,left, mid, right);
-    }
-}
+#include <stdio.h>
+#include <stdlib.h>
+#include <string>
+#include <string.h>
+#include <cassert>
+#include <iostream>
 
-/**
- * @brief    merge sorted sub-arrays
- * 
- * @param[out]    num    array to be sorted
- * @param[in]     mid    mid position separating two sorted arrays
- * @param[in]     left   left position
- * @param[in]     right  right position
- **/
+using namespace std;
+
 void merge(int *num, int mid, int left, int right)
 {
     int *tmp = new int[right-left+1];
@@ -73,4 +53,42 @@ void merge(int *num, int mid, int left, int right)
 
 
     free(tmp);
+}
+
+void m_sort(int *num, int left, int right)
+{
+    int mid;
+    if(left < right)
+    {
+        mid = (right-left)/2 + 1;
+        m_sort(num, left, mid);
+        m_sort(num, mid+1, right);
+        merge(num,left, mid, right);
+    }
+}
+
+int main(int argc, char* argv[])
+{
+    int arr[10];
+    arr[0] = 7;
+    arr[1] = 4;
+    arr[2] = 1;
+    arr[3] = 3;
+    arr[4] = 2;
+    arr[5] = 5;
+    arr[6] = 10;
+    arr[7] = 8;
+    arr[8] = 9;
+    arr[9] = 6;
+
+    m_sort(arr, 0, 9);
+
+    string ret = "";
+    for(int i=0; i<10; i++)
+    {
+        char str[100];
+        snprintf(str, 100, "%d,", arr[i]);
+        ret += str;
+    }
+    assert(strcmp(ret.c_str(), "1,2,3,4,5,6,7,8,9,10,") == 0);
 }
