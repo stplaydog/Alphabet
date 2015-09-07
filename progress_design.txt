@@ -1,0 +1,28 @@
+1)  MapReduce: Simplied Data Processing on Large Clusters               READ1
+2)  Bigtable: A Distributed Storage System for Structured Data          READ1
+3)  The Google File System                                              READ1
+4)  The Chubby lock service for loosely-coupled distributed systems     READ?
+5)  Dynamo: Amazon's Highly Available Key-value Store                   READ1
+6)  Introduction to Memcached
+7)  Cassandra Introduction Features
+8)  Introduction to HBase
+9)  Introduction to MongoDB
+10) Introduction to Redis
+11) Storm
+12) Introduction to Zookeeper
+13) Kafka
+14) YouTube Architecture
+15) Scalinig Pinterest
+16) Google Architecture
+17) Scaling Twitter
+18) The WhatsApp Architecture
+19) Flickr Architecture
+20) Amazon Architecture
+21) Stack Overflow Architecture
+22) Pinterest Architecture
+23) Tumblr Architecture
+24) Instagram Architecture
+25) TripAdvisor Architecture
+26) Scaling Mailbox                                                     READ1
+27) Salesforce Architecture                                             READ1
+28) ESPN's Architecture                                                 READ0

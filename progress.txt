@@ -1,100 +1,199 @@
 1   Single Number                                       Leet1-          Lint
+--------------------------------------------------------------
 2   Delete Node in a Linked List                        Leet1-          Lint
+--------------------------------------------------------------
 3   Maximum Depth of Binary Tree                        Leet1-          Lint
+--------------------------------------------------------------
 4   Add Digits                                          Leet1-          Lint
+--------------------------------------------------------------
 5   Palindrome Permutation                              Leet1-          Lint
+--------------------------------------------------------------
 6   Two Sum II - Input array is sorted                  Leet1-          Lint
+--------------------------------------------------------------
 7   Same Tree                                           Leet1-          Lint
+--------------------------------------------------------------
 8   Shortest Word Distance III                          Leet1-          Lint
+--------------------------------------------------------------
 9   Best Time to Buy and Sell Stock II                  Leet1-          Lint
+--------------------------------------------------------------
 10  Shortest Word Distance                              Leet1-          Lint
+--------------------------------------------------------------
 11  Number of 1 Bits                                    Leet1-          Lint
+--------------------------------------------------------------
 12  Invert Binary Tree                                  Leet1-          Lint
-13  Lowest Common Ancestor of a Binary Search Tree      Leet1?          Lint
+--------------------------------------------------------------
+13  Lowest Common Ancestor of a Binary Search Tree      Leet1-          Lint
+--------------------------------------------------------------
 14  Binary Tree Preorder Traversal                      Leet1-          Lint
+--------------------------------------------------------------
 15  Paint House                                         Leet1-          Lint
+--------------------------------------------------------------
 16  Contains Duplicate                                  Leet1-          Lint
-17  Excel Sheet Column Number                           Leet1?          Lint
+--------------------------------------------------------------
+17  Excel Sheet Column Number                           Leet1-          Lint
+--------------------------------------------------------------
 18  Linked List Cycle                                   Leet1-          Lint
+--------------------------------------------------------------
 19  Binary Tree Inorder Traversal                       Leet1-          Lint
-20  Populating Next Right Pointers in Each Node         Leet1?          Lint
+--------------------------------------------------------------
+20  Populating Next Right Pointers in Each Node         Leet1-          Lint
+--------------------------------------------------------------
 21  N-Queens II                                         Leet1?          Lint
+--------------------------------------------------------------
 22  Majority Element                                    Leet1-          Lint
-23  Unique Binary Search Trees                          Leet1?          Lint
-24  Search Insert Position                              Leet1?          Lint
+--------------------------------------------------------------
+23  Unique Binary Search Trees                          Leet1-          Lint
+--------------------------------------------------------------
+24  Search Insert Position                              Leet1-          Lint
+--------------------------------------------------------------
 25  Single Number II                                    Leet1?          Lint
+--------------------------------------------------------------
 26  Product of Array Except Self                        Leet1-          Lint
+--------------------------------------------------------------
 27  Single Number III                                   Leet1?          Lint
+--------------------------------------------------------------
 28  Maximum Subarray                                    Leet1-          Lint
+--------------------------------------------------------------
 29  Remove Duplicates from Sorted List                  Leet1-          Lint
-30  Climbing Stairs                                     Leet1?          Lint
+--------------------------------------------------------------
+30  Climbing Stairs                                     Leet1-          Lint
+--------------------------------------------------------------
 31  Roman to Integer                                    Leet1-          Lint
+--------------------------------------------------------------
 32  Binary Tree Upside Down                             Leet1?          Lint
-33  Integer to Roman                                    Leet1?          Lint
-34  Convert Sorted Array to Binary Search Tree          Leet1?          Lint
+--------------------------------------------------------------
+33  Integer to Roman                                    Leet1-          Lint
+--------------------------------------------------------------
+34  Convert Sorted Array to Binary Search Tree          Leet1-          Lint
+--------------------------------------------------------------
 35  Valid Anagram                                       Leet1-          Lint
+--------------------------------------------------------------
 36  Implement Queue using Stacks                        Leet1-          Lint
-37  Find Minimum in Rotated Sorted Array                Leet1?          Lint
+--------------------------------------------------------------
+37  Find Minimum in Rotated Sorted Array                Leet1-          Lint
+--------------------------------------------------------------
 38  Gray Code                                           Leet1-          Lint
+--------------------------------------------------------------
 39  Unique Paths                                        Leet1-          Lint
-40  Best Time to Buy and Sell Stock                     Leet1?          Lint
+--------------------------------------------------------------
+40  Best Time to Buy and Sell Stock                     Leet1-          Lint
+--------------------------------------------------------------
 41  Reverse Linked List                                 Leet1-          Lint
+--------------------------------------------------------------
 42  Binary Tree Postorder Traversal                     Leet1-          Lint
-43  Generate Parentheses                                Leet1?          Lint
+--------------------------------------------------------------
+43  Generate Parentheses                                Leet0?          Lint
+--------------------------------------------------------------
 44  Sort Colors                                         Leet1-          Lint
+--------------------------------------------------------------
 45  Merge Two Sorted Lists                              Leet1-          Lint
+--------------------------------------------------------------
 46  Minimum Path Sum                                    Leet1-          Lint
-47  Swap Nodes in Pairs                                 Leet1?          Lint
+--------------------------------------------------------------
+47  Swap Nodes in Pairs                                 Leet0-          Lint
+--------------------------------------------------------------
 48  Meeting Rooms                                       Leet1-          Lint
-49  Find Peak Element                                   Leet1?          Lint
+--------------------------------------------------------------
+49  Find Peak Element                                   Leet1-          Lint
+--------------------------------------------------------------
 50  Balanced Binary Tree                                Leet1-          Lint
+--------------------------------------------------------------
 51  Happy Number                                        Leet1-          Lint
+--------------------------------------------------------------
 52  3Sum Smaller                                        Leet1-          Lint
-53  Symmetric Tree                                      Leet1?          Lint
+--------------------------------------------------------------
+53  Symmetric Tree                                      Leet1-          Lint
+--------------------------------------------------------------
 54  Remove Element                                      Leet1-          Lint
+--------------------------------------------------------------
 55  Remove Duplicates from Sorted Array                 Leet1-          Lint
+--------------------------------------------------------------
 56  Implement Stack using Queues                        Leet1-          Lint
+--------------------------------------------------------------
 57  Longest Substring with At Most Two Distinct         Leet1-          Lint
+--------------------------------------------------------------
 58  Power of Two                                        Leet1-          Lint
-59  Ugly Number                                         Leet1?          Lint
+--------------------------------------------------------------
+59  Ugly Number                                         Leet1-          Lint
+--------------------------------------------------------------
 60  Pascal's Triangle                                   Leet1-          Lint
+--------------------------------------------------------------
 61  Plus One                                            Leet1-          Lint
+--------------------------------------------------------------
 62  Strobogrammatic Number                              Leet1-          Lint
+--------------------------------------------------------------
 63  Kth Smallest Element in a BST                       Leet1-
-64  Binary Search Tree Iterator                         Leet0?
+--------------------------------------------------------------
+64  Binary Search Tree Iterator                         Leet0-
+--------------------------------------------------------------
 65  Path Sum                                            Leet1-
+--------------------------------------------------------------
 66  House Robber                                        Leet0-
+--------------------------------------------------------------
 67  Pascal's Triangle II                                Leet1-
+--------------------------------------------------------------
 68  Factorial Trailing Zeroes                           Leet0?
+--------------------------------------------------------------
 69  Binary Tree Level Order Traversal                   Leet1-
+--------------------------------------------------------------
 70  Intersection of Two Linked Lists                    Leet1-          Lint
+--------------------------------------------------------------
 71  Merge Sorted Array                                  Leet1-
+--------------------------------------------------------------
 72  Minimum Depth of Binary Tree                        Leet1-
-73  Reverse Bits                                        Leet0?
+--------------------------------------------------------------
+73  Reverse Bits                                        Leet0-
+--------------------------------------------------------------
 74  Palindrome Number                                   Leet1-          Lint
+--------------------------------------------------------------
 75  Unique Binary Search Trees II                       Leet0?
-76  Closest Binary Search Tree Value                    Leet0?
+--------------------------------------------------------------
+76  Closest Binary Search Tree Value                    Leet0-
+--------------------------------------------------------------
 77  Search a 2D Matrix II                               Leet0-          Lint
-78  Valid Sudoku                                        Leet0?
+--------------------------------------------------------------
+78  Valid Sudoku                                        Leet0-
+--------------------------------------------------------------
 79  Length of Last Word                                 Leet1-
-80  Encode and Decode Strings                           Leet0?
+--------------------------------------------------------------
+80  Encode and Decode Strings                           Leet0-
+--------------------------------------------------------------
 81  Remove Nth Node From End of List                    Leet1-
+--------------------------------------------------------------
 82  Flatten 2D Vector                                   Leet1-
-83  Valid Parentheses                                   Leet0?
+--------------------------------------------------------------
+83  Valid Parentheses                                   Leet1-
+--------------------------------------------------------------
 84  N-Queens                                            Leet0-          Lint
+--------------------------------------------------------------
 85  Contains Duplicate II                               Leet1-
+--------------------------------------------------------------
 86  Rectangle Area                                      Leet0?
+--------------------------------------------------------------
 87  Longest Common Prefix                               Leet0-
+--------------------------------------------------------------
 88  Implement Trie (Prefix Tree)                        Leet0?
+--------------------------------------------------------------
 89  Add Binary                                          Leet1-
+--------------------------------------------------------------
 90  Reverse Integer                                     Leet1-
+--------------------------------------------------------------
 91  Graph Valid Tree                                    Leet0-          Lint
+--------------------------------------------------------------
 92  ZigZag Conversion                                   Leet0?
+--------------------------------------------------------------
 93  Binary Tree Paths                                   Leet1-
-94  Count Primes                                        Leet0?
+--------------------------------------------------------------
+94  Count Primes                                        Leet0-
+--------------------------------------------------------------
 95  Min Stack                                           Leet0-          Lint
+--------------------------------------------------------------
 96  Summary Ranges                                      Leet1-
+--------------------------------------------------------------
 97  Paint Fence                                         Leet0?
+--------------------------------------------------------------
 98  Two Sum                                             Leet1-
+--------------------------------------------------------------
 99  Compare Version Numbers                             Leet1-
+--------------------------------------------------------------
 100 String to Integer (atoi)                            Leet0?
