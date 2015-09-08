@@ -6,13 +6,13 @@
 6)  Design the Facebook timeline function
 7)  Design a function to return the top 
     k requests during past time interval
-8)  Design an online multiplayer card game
-9)  Design a graph search function
-10) Design a picture sharing system
-11) Design a search engine
-12) Design a recommendition system
-13) Design a tinyurl system
-14) Design a garbage collection system
+8)  Design an online multiplayer card game      READ?
+9)  Design a graph search function              READ0
+10) Design a picture sharing system             READ0
+11) Design a search engine                      READ1
+12) Design a recommendition system              READ1
+13) Design a tinyurl system                     READ1
+14) Design a garbage collection system          READ0
 15) Design a scalable web crawling system
 16) Design and Implementation of a 
     High-Performance Distributed Web Crawler
