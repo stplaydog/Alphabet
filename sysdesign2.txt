@@ -1,12 +1,12 @@
 1)  Design a CDN network                        READ1
 2)  Design a Google document system             READ1
-3)  Design a random ID generation system
-4)  Design a key-value database
-5)  Design the Facebook news seed function
-6)  Design the Facebook timeline function
+3)  Design a random ID generation system        READ1
+4)  Design a key-value database                 READ0
+5)  Design the Facebook news seed functioni     READ1
+6)  Design the Facebook timeline function       READ0
 7)  Design a function to return the top 
-    k requests during past time interval
-8)  Design an online multiplayer card game
+    k requests during past time interval        READ0
+8)  Design an online multiplayer card game      
 9)  Design a graph search function
 10) Design a picture sharing system
 11) Design a search engine
