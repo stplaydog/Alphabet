@@ -209,3 +209,12 @@
 105 H-Index                                             Leet0-
 --------------------------------------------------------------
 106 H-Index II                                          Leet0-
+
+
+
+Perfect Squares                                         Leet?
+Subsets II                                              Leet?
+Combination Sum                                         Leet0
+KMP                                                     Leet?
+Palindrome Partition                                    Leet0
+Lowest Common Ancestor of a Binary Tree                 Leet0 
