@@ -198,19 +198,56 @@
 --------------------------------------------------------------
 100 String to Integer (atoi)                            Leet0?
 --------------------------------------------------------------
-101 Shortest Word Distance II                           Leet1-
+101 Shortest Word Distance II                           Leet1
 --------------------------------------------------------------
-102 Celebrity                                           Leet1-
+102 Celebrity                                           Leet1
 --------------------------------------------------------------
-103 Find MinII                                          Leet0-
+103 Find MinII                                          Leet0
 --------------------------------------------------------------
-104 Rotate Image                                        Leet0-
+104 Rotate Image                                        Leet0
 --------------------------------------------------------------
-105 H-Index                                             Leet0-
+105 H-Index                                             Leet0
 --------------------------------------------------------------
-106 H-Index II                                          Leet0-
-
-
+106 H-Index II                                          Leet0
+--------------------------------------------------------------
+107 Missing Number                                      Leet0
+--------------------------------------------------------------
+108 Permutations                                        Leet1
+--------------------------------------------------------------
+109 Spiral Matrix II                                    Leet1
+--------------------------------------------------------------
+110 Reverse Words II                                    Leet1
+--------------------------------------------------------------
+111 Set Matrix Zeros                                    Leet?
+--------------------------------------------------------------
+112 Binary Tree Level Order Traversal II                Leet?    
+--------------------------------------------------------------
+113 Search in Rotated Sorted Array II                   Leet?
+--------------------------------------------------------------
+114 Combinations                                        Leet?
+--------------------------------------------------------------
+115 Count Univalue Subtrees                             Leet?
+--------------------------------------------------------------
+116 Verify Preorder Sequence in Binary Search Tree      Leet?
+--------------------------------------------------------------
+117 Sum Root to Leaf Numbers                            Leet?
+--------------------------------------------------------------
+118 Trapping Rain Water                                 Leet?
+--------------------------------------------------------------
+119 Read N Characters Given Read4                       Leet?
+--------------------------------------------------------------
+120 Longest Consecutive Sequence                        Leet?
+--------------------------------------------------------------
+121 Combination Sum III                                 Leet?
+122 Flatten Binary Tree to Linked List                  Leet?
+123 Search in Rotated Sorted Array                      Leet? 
+124 Subsets                                             Leet?
+125 Binary Tree Right Side View                         Leet?
+126 Convert Sorted List to Binary Search Tree           Leet?
+127 Triangle                                            Leet?
+128 Kth Largest Element in an Array                     Leet?
+129 Wiggle Sort                                         Leet1
+130 Populating Next Right II                            Leet1
 
 Perfect Squares                                         Leet?
 Subsets II                                              Leet?
