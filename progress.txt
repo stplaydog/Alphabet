@@ -248,3 +248,10 @@
 128 Kth Largest Element in an Array                     Leet?
 129 Wiggle Sort                                         Leet1
 130 Populating Next Right II                            Leet1
+
+Perfect Squares                                         Leet?
+Subsets II                                              Leet?
+Combination Sum                                         Leet0
+KMP                                                     Leet?
+Palindrome Partition                                    Leet0
+Lowest Common Ancestor of a Binary Tree                 Leet0 

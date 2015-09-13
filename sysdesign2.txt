@@ -13,9 +13,7 @@
 12) Design a recommendition system              READ1
 13) Design a tinyurl system                     READ1
 14) Design a garbage collection system          READ0
-15) Design a scalable web crawling system
-16) Design and Implementation of a 
-    High-Performance Distributed Web Crawler
-17) Design the Facebook chat function
-18) Design a trending topic system
-19) Design a cache system
+15) Design a scalable web crawling system       READ1
+16) Design the Facebook chat function           READ0
+17) Design a trending topic system              READ0
+18) Design a cache system
