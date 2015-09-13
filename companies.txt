@@ -1,6 +1,6 @@
-1)  Google      recruiter       Phone       
+1)  Google      recruiter       Phone           Onsite
 2)  Facebook    refer           recruiter       Phone       
-3)  Aamzon      online
+3)  Aamzon      online          Onsite
 4)  Zenefits    refer
 5)  Groupon     online
 6)  Walmart      
