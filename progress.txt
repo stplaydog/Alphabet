@@ -212,11 +212,11 @@
 --------------------------------------------------------------
 107 Missing Number                                      Leet0
 --------------------------------------------------------------
-108 Permutations                                        Leet0
+108 Permutations                                        Leet1
 --------------------------------------------------------------
-109 Spiral Matrix II                                    Leet0
+109 Spiral Matrix II                                    Leet1
 --------------------------------------------------------------
-110 Reverse Words II                                    Leet0
+110 Reverse Words II                                    Leet1
 --------------------------------------------------------------
 111 Set Matrix Zeros                                    Leet?
 --------------------------------------------------------------
@@ -246,3 +246,5 @@
 126 Convert Sorted List to Binary Search Tree           Leet?
 127 Triangle                                            Leet?
 128 Kth Largest Element in an Array                     Leet?
+129 Wiggle Sort                                         Leet1
+130 Populating Next Right II                            Leet1
