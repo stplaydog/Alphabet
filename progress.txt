@@ -24,29 +24,29 @@
 --------------------------------------------------------------
 13  Lowest Common Ancestor of a Binary Search Tree      Leet1-W          
 --------------------------------------------------------------
-14  Binary Tree Preorder Traversal                      Leet1-          
+14  Binary Tree Preorder Traversal                      Leet1-s 
 --------------------------------------------------------------
-15  Paint House                                         Leet1-          
+15  Paint House                                         Leet1-W          
 --------------------------------------------------------------
-16  Contains Duplicate                                  Leet1-          
+16  Contains Duplicate                                  Leet1-s          
 --------------------------------------------------------------
-17  Excel Sheet Column Number                           Leet1-          
+17  Excel Sheet Column Number                           Leet1-W          
 --------------------------------------------------------------
-18  Linked List Cycle                                   Leet1-          
+18  Linked List Cycle                                   Leet1-s          
 --------------------------------------------------------------
-19  Binary Tree Inorder Traversal                       Leet1-          
+19  Binary Tree Inorder Traversal                       Leet1-s          
 --------------------------------------------------------------
-20  Populating Next Right Pointers in Each Node         Leet1-          
+20  Populating Next Right Pointers in Each Node         Leet1-s          
 --------------------------------------------------------------
-21  N-Queens II                                         Leet1?          
+21  N-Queens II                                         Leet1??          
 --------------------------------------------------------------
-22  Majority Element                                    Leet1-          
+22  Majority Element                                    Leet1-W          
 --------------------------------------------------------------
-23  Unique Binary Search Trees                          Leet1-          
+23  Unique Binary Search Trees                          Leet1-W          
 --------------------------------------------------------------
-24  Search Insert Position                              Leet1-          
+24  Search Insert Position                              Leet1-s         
 --------------------------------------------------------------
-25  Single Number II                                    Leet1?          
+25  Single Number II                                    Leet1?         
 --------------------------------------------------------------
 26  Product of Array Except Self                        Leet1-          
 --------------------------------------------------------------
@@ -66,7 +66,7 @@
 --------------------------------------------------------------
 34  Convert Sorted Array to Binary Search Tree          Leet1-          
 --------------------------------------------------------------
-35  Valid Anagram                                       Leet1-          
+35  Valid Anagram                                       Leet1-W 
 --------------------------------------------------------------
 36  Implement Queue using Stacks                        Leet1-          
 --------------------------------------------------------------
@@ -238,17 +238,17 @@
 --------------------------------------------------------------
 120 Longest Consecutive Sequence                        Leet1
 --------------------------------------------------------------
-121 Combination Sum III                                 Leet?
+121 Combination Sum III                                 Leet1
 --------------------------------------------------------------
-122 Flatten Binary Tree to Linked List                  Leet?
+122 Flatten Binary Tree to Linked List                  Leet1
 --------------------------------------------------------------
-123 Search in Rotated Sorted Array                      Leet? 
+123 Search in Rotated Sorted Array                      Leet0
 --------------------------------------------------------------
-124 Subsets                                             Leet?
+124 Subsets                                             Leet1
 --------------------------------------------------------------
-125 Binary Tree Right Side View                         Leet?
+125 Binary Tree Right Side View                         Leet0
 --------------------------------------------------------------
-126 Convert Sorted List to Binary Search Tree           Leet?
+126 Convert Sorted List to Binary Search Tree           Leet0
 --------------------------------------------------------------
 127 Triangle                                            Leet?
 --------------------------------------------------------------
@@ -276,9 +276,16 @@
 --------------------------------------------------------------
 139 Remove Linked List Elements                         Leet1
 --------------------------------------------------------------
+140 Subsets II                                          Leet1
+--------------------------------------------------------------
+141 Unique Paths II                                     Leet1
+--------------------------------------------------------------
+142 Meeting Rooms II                                    Leet1
+--------------------------------------------------------------
+143 Factor Combinations                                 Leet0
+
 Perfect Squares                                         Leet1
-Subsets II                                              Leet?
-Combination Sum                                         Leet0
+Combination Sum                                         Leet1
 KMP                                                     Leet?
 Palindrome Partition                                    Leet0
 Lowest Common Ancestor of a Binary Tree                 Leet0 
