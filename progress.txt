@@ -250,9 +250,9 @@
 --------------------------------------------------------------
 126 Convert Sorted List to Binary Search Tree           Leet0
 --------------------------------------------------------------
-127 Triangle                                            Leet?
+127 Triangle                                            Leet1
 --------------------------------------------------------------
-128 Kth Largest Element in an Array                     Leet?
+128 Kth Largest Element in an Array                     Leet0
 --------------------------------------------------------------
 129 Wiggle Sort                                         Leet1
 --------------------------------------------------------------
@@ -283,9 +283,31 @@
 142 Meeting Rooms II                                    Leet1
 --------------------------------------------------------------
 143 Factor Combinations                                 Leet0
+--------------------------------------------------------------
+144 Partition List                                      Leet0
+--------------------------------------------------------------
+145 Move Zeroes                                         Leet1
+--------------------------------------------------------------
+146 Search for a Range                                  Leet1
+--------------------------------------------------------------
+147 House Robber II                                     Leet1
+--------------------------------------------------------------
+148 Lowest Common Ancestor of a Binary Tree             Leet1
+--------------------------------------------------------------
+149 Palindrome Partitioning                             Leet0
+--------------------------------------------------------------
+150 Construct BT from Inorder and Postorder Traversal   Leet0
+--------------------------------------------------------------
+151 3Sum Closest                                        Leet0
+--------------------------------------------------------------
+152 Insertion Sort List                                 Leet1
+--------------------------------------------------------------
+153 Jump Game                                           Leet1
+--------------------------------------------------------------
+154 Different Ways to Add Parentheses                   Leet0
+--------------------------------------------------------------
+155 Pow(x, n)                                           Leet0
 
 Perfect Squares                                         Leet1
 Combination Sum                                         Leet1
 KMP                                                     Leet?
-Palindrome Partition                                    Leet0
-Lowest Common Ancestor of a Binary Tree                 Leet0 
