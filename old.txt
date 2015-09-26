@@ -1,0 +1,145 @@
+Please use this Google doc to code during your interview. To make hands free coding a little easier, we recommend that you use a headset or a phone with speaker option.
+
+
+
+
+
+
+Best,
+    Google Staffing
+
+
+    Hi Zhaoming!
+
+
+    class Node {
+        // some other data
+        ...
+
+            // non-root nodes: < index to self.
+            // root nodes: == index to self.
+            int parent_index;
+    };
+
+vector<Node> forest;  // More than one root may exist.
+
+A -> B -> C -> D
+A: root, D: leaf, B/C: intermediate nodes
+
+i:             0  1  2  3
+f[i]:          A  B  C  D 
+parent_index:  0  0  1  2
+
+GOOD
+i:             0  1  2  3
+f[i]:          A  B  C  D
+
+INVALID
+i:             0  1  2  3
+f[i]:          A  C  B  D  (C shouldn't appear before its parent, B)
+
+
+A->B->C->D
+
+<A, B, C, D>
+<0, 0, 1, 2>
+
+to_del <3>
+
+<A,B,D>
+<0,0,1>
+
+If we delete C, we also delete D (everything/substree under C)
+    <A,B>
+    <0,0>
+
+    the problem will be how to traverse the subtree from a given node
+
+    is the idx of a given node always smaller greater than its parent?
+
+    now I can use a hashmap to represent the one tobe delete
+
+    if I delete <idx>
+
+    map[idx] = true
+    then I scan the forrest
+    for elem in f:
+    if map[parent[elem]] == true:
+    map[elem]  =true
+
+    but the problem with this algorithm is that it has to iterate depth(tree) to finish
+    because it is a BFS.
+
+    why is scanning the tree a problem?
+
+    the depth of the tree
+    whne you try to delete a subtree by the input of a node
+    first scan will detect all the child of this node
+    second scan will detect child of the child
+    ……
+    so total number of scan will be O(depth(subtree))?
+
+    The total steps ~ O(depth(subtree) * cost_of_single_scan)
+cost_of_single_scan := O(size(forest))
+
+    you mean the complexity of building the tree?
+The complexity of building the tree is O(size(forrest))
+
+    you mean I implement the al
+
+    Ok
+
+
+    another algorithm could be I construct another tree using the current tree, which is 
+
+    struct node{
+        int*children; // keep children list
+    }
+
+then I perform the deletion
+
+the complexity will be reduced
+
+struct node1{
+    vector<int> children; 
+}
+
+
+void delete_nodes(vector<Node>* f, const set<int>& to_del) {
+    …
+        //let’s construct another forrest first
+        vector<node1> f1;
+    f1.resize(f.size());
+    for (int i=0; i< f.size(); i++)
+        f1[f[i].parent].children.append(i); 
+
+    //now let’s delete to_del
+    //the question will be, after we delete a elem we just remove it from f, shall we update the index all others, but we have delete all the children, all other parent nodes will not be affected? great!
+    //because if a node is deleted, all the nodes organized behind this node will have to change index, so this is a prefix sum problem now 
+    //let’s have an array
+    bool deleted[f.size()];
+    memset(deleted, f.size(), false);
+    for(int i=0; i<to_del.size(); i++){
+        //elements can be deleted recursively
+        delete(f1, to_del[i], deleted);
+        //I have know all the elements which deleted or not using the recursion function defined, I we get deleted[], now it’s time to re-organize f
+        //we have to map the old index to the new index, which is a prefix sum problem
+    }
+}
+
+//what’s prefix sum
+example
+[1, 0, 0, 1, 0, 1, 1]
+new index
+[1,1,1,2,2,3,4]
+
+void
+delete(vector<node1> f1, int root, bool deleted[]){
+
+    deleted[root] = true;
+    for(int i=0; i<f1[root].children.size(); i++)
+        delete(f1, f1[root].children[i], deleted);
+}
+
+
+
