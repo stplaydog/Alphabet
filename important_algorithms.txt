@@ -1,0 +1,32 @@
+1   A* search algorithm 
+2   Beam Search 
+3   Binary search 
+4   Branch and bound 
+5   Buchberger's algorithm 
+6   Data compression 
+7   Diffie-Hellman key exchange 
+8   Dijkstra's algorithm 
+9   Discrete differentiation 
+10  Dynamic programming 
+11  Euclidean algorithm 
+12  Expectation-maximization algorithm (EM-Training)
+13  Fast Fourier transform (FFT) 
+14  Gradient descent 
+15  Hashing 
+16  Heaps (heap sort) 
+17  Karatsuba multiplication 
+18  LLL algorithm 
+19  Maximum flow 
+20  Merge sort 
+21  Newton's method 
+22  Q-learning 
+23  Quadratic sieve 
+24  RANSAC 
+25  RSA 
+26  Schönhage-Strassen algorithm 
+27  Simplex algorithm 
+28  Singular value decomposition (SVD) 
+29  Solving a system of linear equations 
+30  Strukturtensor 
+31  Union-find 
+32  Viterbi algorithm 
