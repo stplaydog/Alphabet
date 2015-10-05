@@ -1,0 +1,113 @@
+phone interview starting with introducing yourself followed by two code questions. 
+The first coding question is very standard coding question and the second one is a little more related to facebook's certain functionality
+--------------------------------------------------------------------------------------------------------------------------------
+Application
+I applied through an employee referral. The process took 4+ weeks. I interviewed at Facebook (Menlo Park, CA).
+
+Interview
+- Employee referral to Phone Screen 
+- Phone Interview with web coding (algorithm + SQL) via coderpad.io 
+- In-person Interview with data structure/algorithm coding, sql coding, a "lunch" that was essentially a compatibility interview, 
+- and then a full stack interview that was basically a combination of all three.
+
+Interview Questions
+in the phone interview: - pretty basic python algorithm question. Having read the others here, 
+I assumed I&#039;d get pitched a softball and then a harder question. 
+I was able to solve it within the first several minutes, but spent the rest of the session trying to optimize the solution. 
+- some basic SQL questions on joins and such. I answered probably 5 or 6 questions. 
+Both of these interviews seemed like minimum bar screens. 
+For the in-person interview: - more difficult python question and had to code on a white board. 
+It was a pretty simple sorting question that was easy to solve but less trivial to optimize. 
+- more difficult SQL questions. I struggled here but I was a bit weaker in SQL so I figured as much. 
+This progressed into dashboard design. - Lunch was at a cafe on campus and delicious. 
+Interviewer was just asking me about work experience and culture and it seemed just like a general personality compatibility test. 
+- Full Stack interview was my favorite part and a lot of fun. 
+Without giving too much away, I was given a realistic problem and tasked with conceptualizing the solution in real time, 
+from start to finish, on a white board. It was a mix of coding and conceptual and seemed to be meant to test product sense.  
+--------------------------------------------------------------------------------------------------------------------------------
+Application
+I applied through an employee referral. The process took 2+ weeks. 
+I interviewed at Facebook (Pittsburgh, PA) in April 2015.
+
+Interview
+I was ask to answer a few question about my resume and followed two coding questions. 
+For each question, the interviewer asked the time and space complexity and how to improve them. 
+At the end, he asked me whether if I had questions for him or the company.
+
+Interview Questions
+1. Binary Tree level order traversal 
+2. Given a string and a pattern '.' Matches any single character. '*' Matches zero or more of the preceding element.), 
+find the first substring matching this pattern.  
+--------------------------------------------------------------------------------------------------------------------------------
+Application
+I applied through college or university. I interviewed at Facebook.
+
+Interview
+2 screen shares and you will be asked for one more if they feel that you have to prove yourself before giving an offer. 
+I was given only 2 rounds and they were friends who were asked for one more interview. nothing bad on that!
+
+Interview Questions
+search in BST, permutations, merge sort arrays.  
+--------------------------------------------------------------------------------------------------------------------------------
+Interview
+General experience discussions, two coding interviews, and one architecture interview. 
+There was a lunch break interview which does not count towards the overall performance. 
+The interview process was as smooth as it could be. 
+Recruiter explained the whole process fairly well and interviewers are well trained to be professional. 
+Although I did not get extended offer, the overall experience was great.
+
+Interview Questions
+Removing Duplicates, Sorting, Tree based questions  
+--------------------------------------------------------------------------------------------------------------------------------
+Interview
+I've applied through an employee referral and got a ping from the recruiter in about a week. 
+After the initial chat with the recruiter to chat about FB, my interests and logistics, I got scheduled for the initial 45-minute screening. 
+I was given two options for the screen, either phone/codeshare or an onsite visit (likely an option available for local candidates only). 
+I chose the in-person option, and got an invite for a round of full day (5 total) within few hours after the initial screen. 
+Facebook recruiters send interview prep materials to the candidates on what to expect, 
+what to brush up on, as well as some suggestions tailored to a particular candidate's weak-ish spots 
+(in my case it was the speed of coding). I knew what to expect going in and felt well prepared on this front. 
+Initial screen was algorithm + coding. Nothing overly challenging. Onsite consisted of 5 interviews (+ informal lunch) covering: 
+1) One "Jedi" interview with a hiring manager testing behavior / culture fit + warm-up coding. 
+   Prepare to talk about past experience, career goals, as well as several "tell me about the time when..." questions. 
+2) One "Pirate" interview: System design portion of the interview. There are great resources on Quora on suggestions on how to prepare and what to pay attention too. 
+3) Three "Ninja" interviews focusing on algorithm + coding. I actually have seen all of the questions I got asked at Facebook before, 
+   but that did not help me as ultimately the reason for rejection was cited as not being able to come up with optimal solutions and code fast enough. 
+Got an phone call from the recruiter in about a week+few days after the interview telling me the unfortunate news. 
+I think I had to wait few extra days because of the July holidays and typically the process is faster. 
+Culture: I did find some of the junior Facebook engineers conducting my interview a bit arrogant and cocky, but nothing too alarming. 
+All in all, I had a positive interview experience. I wish the interview loop was better tailored towards someone more senior, 
+e.g. less emphasis on coding, more on design. Current interview process makes it seem they hire code monkeys.
+
+Interview Questions
+I can't discuss specifics due to NDA, but interview questions were neither overly difficult nor tricky. 
+Check careercup and brush up on algorithms (string processing, binary trees, graphs, etc.). 
+Practice coding fast (which potentially means forgetting good software engineering practices such as class design, 
+refactoring as it will only slow you down). 
+Establish rapport with your interviewer, remember to ask clarifying questions, 
+talk through your thinking process and solutions and you'll do well. Hopefully better than me:) Best of luck!  
+--------------------------------------------------------------------------------------------------------------------------------
+ Read number, e.g. 100 -&gt; one hundred, 113 -&gt; one   hundred thirteen Stock Search in rotated sorted array Sort Color 
+--------------------------------------------------------------------------------------------------------------------------------
+Interview
+Phone Screen 45 min duration in total, the interviewer said a little bit about himself and went straight to a technical question. 
+No background questions. The interview process went as expected, no surprises. The interviewer seemed to be a nice guy.
+
+Interview Questions
+Given a sequence of numbers (34128) and an input map such as a dial pad on a phone (2-&gt;[a,b,c], 3-&gt;[d,e,f], 4-&gt;[g,h,i]) 
+write an algorithm to return all possible words from the sequence. 
+E.g. Input: 232 Output: [ada, adb, adc, aea, aeb, aec, afa, afb, afc, bda, bdb, bdc, bea, beb, bec, bfa, bfb, bfc, cda, cdb, cdc, cea, ceb, cec, cfa, cfb, cfc]  
+--------------------------------------------------------------------------------------------------------------------------------
+Given a sorted set of numbers, find the first sequence of numbers that add up to a specified value.  
+--------------------------------------------------------------------------------------------------------------------------------
+Print all the paths of a binary tree  
+--------------------------------------------------------------------------------------------------------------------------------
+Given an array of ints = [6, 4, 0, 5, 0, 0, 0, 1, 0] move all non zero numbers to the left and zeros to the right. How can you now improve your answer to O(n)?  
+--------------------------------------------------------------------------------------------------------------------------------
+Given a string with parenthesis like "()()(()(()()", check to see if there are matching pairs. If there are matching pairs, return true, else return false. For example, ()()() returns true, ()()()) returns false.  
+--------------------------------------------------------------------------------------------------------------------------------
+Multiply two big ints.
+--------------------------------------------------------------------------------------------------------------------------------
+Q1A: In a maze with empty spaces and walls, given a starting point and ending point, find a path (not necessarily shortest). (Just BFS, DFS...) 
+Q1B: If the maze is stored on multiple nodes on a cluster, what do we have to do? (No coding, just give ideas) 
+Q2: Given an array and a target number, tell whether there are three numbers in the array which add up to the target number. (Time complexity should be O(n^2)) Q3: Topological sort.  
