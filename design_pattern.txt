@@ -1,0 +1,29 @@
+1   Abstract Factory            READ?
+2   Builder                     READ?       color case 
+3   Factory Method              READ1
+4   Object Pool                 READ?
+5   Prototype                   READ0
+6   Singleton                   READ1
+
+7   Adapter                     READ?
+8   Bridge                      READ?
+9   Composite                   READ
+10  Decorator                   READ
+11  Facade                      READ
+12  Flyweight                   READ
+13  Private Class Data          READ
+14  Proxy                       READ
+
+15  Chain of Responsibility     READ
+16  Command                     READ
+17  Interpreter                 READ
+18  Iterator                    READ
+19  Mediator                    READ
+20  Memento                     READ
+21  Null Object                 READ
+22  Observer                    READ
+23  State                       READ
+24  Strategy                    READ
+25  Template Method             READ
+26  Visitor                     READ
+
