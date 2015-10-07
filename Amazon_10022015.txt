@@ -1,0 +1,27 @@
+1) A Romanian manager, asked a lot of behavior questions:
+    * ever been praised?
+    * solve hard problems?
+    * sharing?
+    * efficiency?
+    ...
+ 
+2) Bar raiser
+    * discuss about a challenge -- Oraber
+    * given string, get frequency
+
+3) Lunch, a Wisconsin guy
+
+4) Young guy
+    * discuss about job
+    * machine learning
+    * min stack
+    * domino -- graph diameter
+
+5) Serious guy
+    * Ask about sorting
+    * parallel sorting / IO sorting
+    * Ask design about top k recommendation.
+
+6) Chinese Guy
+    * Ask design a vending machine -- composite pattern -- strategy pattern
+    * How about change?
