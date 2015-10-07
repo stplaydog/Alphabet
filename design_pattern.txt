@@ -1,29 +1,29 @@
 1   Abstract Factory            READ?
-2   Builder                     READ?       color case 
-3   Factory Method              READ1
+2   Builder                     READ?       
+3   Factory Method              READ1       OPTKIT
 4   Object Pool                 READ?
 5   Prototype                   READ0
-6   Singleton                   READ1
+6   Singleton                   READ1       Parm
 
 7   Adapter                     READ?
-8   Bridge                      READ?
-9   Composite                   READ
-10  Decorator                   READ
-11  Facade                      READ
-12  Flyweight                   READ
-13  Private Class Data          READ
-14  Proxy                       READ
+8   Bridge                      READ?       DCJUC?
+9   Composite                   READ0       Disco   https://sourcemaking.com/design_patterns/composite/cpp/1
+10  Decorator                   READ0       Lucene  https://sourcemaking.com/design_patterns/decorator/cpp/1
+11  Facade                      READ?               https://sourcemaking.com/design_patterns/facade/cpp/1
+12  Flyweight                   READ?               https://sourcemaking.com/design_patterns/flyweight/cpp/1
+13  Private Class Data          READ0               https://en.wikipedia.org/wiki/Private_class_data_pattern
+14  Proxy                       READ?               https://sourcemaking.com/design_patterns/proxy/cpp/1
 
 15  Chain of Responsibility     READ
 16  Command                     READ
 17  Interpreter                 READ
-18  Iterator                    READ
+18  Iterator                    READ        CPP
 19  Mediator                    READ
 20  Memento                     READ
 21  Null Object                 READ
-22  Observer                    READ
+22  Observer                    READ        Disco
 23  State                       READ
-24  Strategy                    READ
-25  Template Method             READ
+24  Strategy                    READ        OPTKIT
+25  Template Method             READ        CPP
 26  Visitor                     READ
 
