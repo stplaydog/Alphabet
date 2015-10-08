@@ -14,16 +14,16 @@
 13  Private Class Data          READ0               https://en.wikipedia.org/wiki/Private_class_data_pattern
 14  Proxy                       READ?               https://sourcemaking.com/design_patterns/proxy/cpp/1
 
-15  Chain of Responsibility     READ
-16  Command                     READ
-17  Interpreter                 READ
-18  Iterator                    READ        CPP
-19  Mediator                    READ
-20  Memento                     READ
-21  Null Object                 READ
-22  Observer                    READ        Disco
-23  State                       READ
-24  Strategy                    READ        OPTKIT
-25  Template Method             READ        CPP
-26  Visitor                     READ
+15  Chain of Responsibility     READ0       Disco?  https://sourcemaking.com/design_patterns/chain_of_responsibility/cpp/1
+16  Command                     READ?               https://sourcemaking.com/design_patterns/command/cpp/2
+17  Interpreter                 READ?               https://sourcemaking.com/design_patterns/interpreter/cpp/1
+18  Iterator                    READ1       Parm    https://sourcemaking.com/design_patterns/iterator/cpp/1
+19  Mediator                    READ1       Parm    https://sourcemaking.com/design_patterns/mediator/cpp/2
+20  Memento                     READ?               https://sourcemaking.com/design_patterns/memento/cpp/1
+21  Null Object                 READ?
+22  Observer                    READ0       Disco   https://sourcemaking.com/design_patterns/observer/cpp/1
+23  State                       READ?               https://sourcemaking.com/design_patterns/state/cpp/1
+24  Strategy                    READ0       OPTKIT  https://sourcemaking.com/design_patterns/strategy/cpp/1
+25  Template Method             READ0       CPP     https://sourcemaking.com/design_patterns/template_method/cpp/2
+26  Visitor                     READ?               https://sourcemaking.com/design_patterns/visitor/cpp/1
 
