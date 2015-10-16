@@ -1,0 +1,4 @@
+View C++ as a federation of languages.
+Prefer consts, enums, and inlines to #defines.
+Use const whenever possible.
+Make sure that objects are initialized before they are used
