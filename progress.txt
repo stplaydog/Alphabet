@@ -1,238 +1,250 @@
-1   Single Number                                       Leet1-W 
+|==================================================================|
+| Copy Right YMSys 2015                                            |
+| 1:    I know how to solve it, and I get the best solution;       |
+| 2:    There could be better solution;                            |
+| 3:    I can write white board solution;                          |
+| 4:    I can write bug free white board solution, and hand debug; |
+| ?:    I don't know how to solve it;                              |
+| (n):  Num of submissions;                                        |
+|==================================================================|
+
+
+-------------------------------------------------------------------------------
+1   Single Number                                       Leet1 | Leet1(1)   
+-------------------------------------------------------------------------------
+2   Delete Node in a Linked List                        Leet1
+---------------------------------------------------------------------
+3   Maximum Depth of Binary Tree                        Leet1
+---------------------------------------------------------------------
+4   Add Digits                                          Leet1 | Leet2(1)
+------------------------------------------------------------------------------
+5   Palindrome Permutation                              Leet1 | Leet1(1)
+------------------------------------------------------------------------------
+6   Two Sum II - Input array is sorted                  Leet1
 ---------------------------------------------------------------
-2   Delete Node in a Linked List                        Leet1-W          
+7   Same Tree                                           Leet1
 ---------------------------------------------------------------
-3   Maximum Depth of Binary Tree                        Leet1-W          
----------------------------------------------------------------
-4   Add Digits                                          Leet1-W          
----------------------------------------------------------------
-5   Palindrome Permutation                              Leet1-W          
----------------------------------------------------------------
-6   Two Sum II - Input array is sorted                  Leet1-W          
----------------------------------------------------------------
-7   Same Tree                                           Leet1-W          
----------------------------------------------------------------
-8   Shortest Word Distance II                           Leet1-W 
+8   Shortest ord Distance II                            Leet1 
 --------------------------------------------------------------
-9   Best Time to Buy and Sell Stock II                  Leet1-s 
+9   Best Time to Buy and Sell Stock II                  Leet1 
 --------------------------------------------------------------
-10  Shortest Word Distance                              Leet1-s         
+10  Shortest ord Distance                               Leet1
 --------------------------------------------------------------
-11  Number of 1 Bits                                    Leet1-W          
+11  Number of 1 Bits                                    Leet1
 --------------------------------------------------------------
-12  Invert Binary Tree                                  Leet1-W          
+12  Invert Binary Tree                                  Leet1
 --------------------------------------------------------------
-13  Lowest Common Ancestor of a Binary Search Tree      Leet1-W          
+13  Lowest Common Ancestor of a Binary Search Tree      Leet1
 --------------------------------------------------------------
-14  Binary Tree Preorder Traversal                      Leet1-s 
+14  Binary Tree Preorder Traversal                      Leet1 
 --------------------------------------------------------------
-15  Paint House                                         Leet1-W          
+15  Paint House                                         Leet1
 --------------------------------------------------------------
-16  Contains Duplicate                                  Leet1-s          
+16  Contains Duplicate                                  Leet1
 --------------------------------------------------------------
-17  Excel Sheet Column Number                           Leet1-W          
+17  Excel Sheet Column Number                           Leet1
 --------------------------------------------------------------
-18  Linked List Cycle                                   Leet1-s          
+18  Linked List Cycle                                   Leet1
 --------------------------------------------------------------
-19  Binary Tree Inorder Traversal                       Leet1-s          
+19  Binary Tree Inorder Traversal                       Leet1
 --------------------------------------------------------------
-20  Populating Next Right Pointers in Each Node         Leet1-s          
+20  Populating Next Right Pointers in Each Node         Leet1
 --------------------------------------------------------------
-21  N-Queens II                                         Leet1??          
+21  N-Queens II                                         Leet1
 --------------------------------------------------------------
-22  Majority Element                                    Leet1-W          
+22  Majority Element                                    Leet1
 --------------------------------------------------------------
-23  Unique Binary Search Trees                          Leet1-W          
+23  Unique Binary Search Trees                          Leet1
 --------------------------------------------------------------
-24  Search Insert Position                              Leet1-s         
+24  Search Insert Position                              Leet1
 --------------------------------------------------------------
-25  Single Number II                                    Leet1?         
+25  Single Number II                                    Leet1
 --------------------------------------------------------------
-26  Product of Array Except Self                        Leet1-          
+26  Product of Array Except Self                        Leet1
 --------------------------------------------------------------
-27  Single Number III                                   Leet1?          
+27  Single Number III                                   Leet1
 --------------------------------------------------------------
-28  Maximum Subarray                                    Leet1-          
+28  Maximum Subarray                                    Leet1
 --------------------------------------------------------------
-29  Remove Duplicates from Sorted List                  Leet1-          
+29  Remove Duplicates from Sorted List                  Leet1
 --------------------------------------------------------------
-30  Climbing Stairs                                     Leet1-          
+30  Climbing Stairs                                     Leet1
 --------------------------------------------------------------
-31  Roman to Integer                                    Leet1-          
+31  Roman to Integer                                    Leet1
 --------------------------------------------------------------
-32  Binary Tree Upside Down                             Leet1?          
+32  Binary Tree Upside Down                             Leet1
 --------------------------------------------------------------
-33  Integer to Roman                                    Leet1-          
+33  Integer to Roman                                    Leet1
 --------------------------------------------------------------
-34  Convert Sorted Array to Binary Search Tree          Leet1-          
+34  Convert Sorted Array to Binary Search Tree          Leet1
 --------------------------------------------------------------
-35  Valid Anagram                                       Leet1-W 
+35  Valid Anagram                                       Leet1 
 --------------------------------------------------------------
-36  Implement Queue using Stacks                        Leet1-          
+36  Implement Queue using Stacks                        Leet1
 --------------------------------------------------------------
-37  Find Minimum in Rotated Sorted Array                Leet1-          
+37  Find Minimum in Rotated Sorted Array                Leet1
 --------------------------------------------------------------
-38  Gray Code                                           Leet1-          
+38  Gray Code                                           Leet1
 --------------------------------------------------------------
-39  Unique Paths                                        Leet1-          
+39  Unique Paths                                        Leet1
 --------------------------------------------------------------
-40  Best Time to Buy and Sell Stock                     Leet1-          
+40  Best Time to Buy and Sell Stock                     Leet1
 --------------------------------------------------------------
-41  Reverse Linked List                                 Leet1-          
+41  Reverse Linked List                                 Leet1
 --------------------------------------------------------------
-42  Binary Tree Postorder Traversal                     Leet1-          
+42  Binary Tree Postorder Traversal                     Leet1
 --------------------------------------------------------------
-43  Generate Parentheses                                Leet0?          
+43  Generate Parentheses                                Leet2
 --------------------------------------------------------------
-44  Sort Colors                                         Leet1-          
+44  Sort Colors                                         Leet1
 --------------------------------------------------------------
-45  Merge Two Sorted Lists                              Leet1-          
+45  Merge Two Sorted Lists                              Leet1
 --------------------------------------------------------------
-46  Minimum Path Sum                                    Leet1-          
+46  Minimum Path Sum                                    Leet1
 --------------------------------------------------------------
-47  Swap Nodes in Pairs                                 Leet0-          
+47  Swap Nodes in Pairs                                 Leet2
 --------------------------------------------------------------
-48  Meeting Rooms                                       Leet1-          
+48  Meeting Rooms                                       Leet1
 --------------------------------------------------------------
-49  Find Peak Element                                   Leet1-          
+49  Find Peak Element                                   Leet1
 --------------------------------------------------------------
-50  Balanced Binary Tree                                Leet1-          
+50  Balanced Binary Tree                                Leet1
 --------------------------------------------------------------
-51  Happy Number                                        Leet1-          
+51  Happy Number                                        Leet1
 --------------------------------------------------------------
-52  3Sum Smaller                                        Leet1-          
+52  3Sum Smaller                                        Leet1
 --------------------------------------------------------------
-53  Symmetric Tree                                      Leet1-          
+53  Symmetric Tree                                      Leet1
 --------------------------------------------------------------
-54  Remove Element                                      Leet1-          
+54  Remove Element                                      Leet1
 --------------------------------------------------------------
-55  Remove Duplicates from Sorted Array                 Leet1-          
+55  Remove Duplicates from Sorted Array                 Leet1
 --------------------------------------------------------------
-56  Implement Stack using Queues                        Leet1-          
+56  Implement Stack using Queues                        Leet1
 --------------------------------------------------------------
-57  Longest Substring with At Most Two Distinct         Leet1-          
+57  Longest Substring with At Most Two Distinct         Leet1
 --------------------------------------------------------------
-58  Power of Two                                        Leet1-          
+58  Power of Two                                        Leet1
 --------------------------------------------------------------
-59  Ugly Number                                         Leet1-          
+59  Ugly Number                                         Leet1
 --------------------------------------------------------------
-60  Pascal's Triangle                                   Leet1-          
+60  Pascal's Triangle                                   Leet1
 --------------------------------------------------------------
-61  Plus One                                            Leet1-          
+61  Plus One                                            Leet1
 --------------------------------------------------------------
-62  Strobogrammatic Number                              Leet1-          
+62  Strobogrammatic Number                              Leet1
 --------------------------------------------------------------
-63  Kth Smallest Element in a BST                       Leet1-
+63  Kth Smallest Element in a BST                       Leet1
 --------------------------------------------------------------
-64  Binary Search Tree Iterator                         Leet0-
+64  Binary Search Tree Iterator                         Leet2
 --------------------------------------------------------------
-65  Path Sum                                            Leet1-
+65  Path Sum                                            Leet1
 --------------------------------------------------------------
-66  House Robber                                        Leet0-
+66  House Robber                                        Leet2
 --------------------------------------------------------------
-67  Pascal's Triangle II                                Leet1-
+67  Pascal's Triangle II                                Leet1
 --------------------------------------------------------------
-68  Factorial Trailing Zeroes                           Leet0?
+68  Factorial Trailing Zeroes                           Leet2
 --------------------------------------------------------------
-69  Binary Tree Level Order Traversal                   Leet1-
+69  Binary Tree Level Order Traversal                   Leet1
 --------------------------------------------------------------
-70  Intersection of Two Linked Lists                    Leet1-          
+70  Intersection of Two Linked Lists                    Leet1
 --------------------------------------------------------------
-71  Merge Sorted Array                                  Leet1-
+71  Merge Sorted Array                                  Leet1
 --------------------------------------------------------------
-72  Minimum Depth of Binary Tree                        Leet1-
+72  Minimum Depth of Binary Tree                        Leet1
 --------------------------------------------------------------
-73  Reverse Bits                                        Leet0-
+73  Reverse Bits                                        Leet2
 --------------------------------------------------------------
-74  Palindrome Number                                   Leet1-          
+74  Palindrome Number                                   Leet1
 --------------------------------------------------------------
-75  Unique Binary Search Trees II                       Leet0?
+75  Unique Binary Search Trees II                       Leet2
 --------------------------------------------------------------
-76  Closest Binary Search Tree Value                    Leet0-
+76  Closest Binary Search Tree Value                    Leet2
 --------------------------------------------------------------
-77  Search a 2D Matrix II                               Leet0-          
+77  Search a 2D Matrix II                               Leet2
 --------------------------------------------------------------
-78  Valid Sudoku                                        Leet0-
+78  Valid Sudoku                                        Leet2
 --------------------------------------------------------------
-79  Length of Last Word                                 Leet1-
+79  Length of Last word                                 Leet1
 --------------------------------------------------------------
-80  Encode and Decode Strings                           Leet0-
+80  Encode and Decode Strings                           Leet2
 --------------------------------------------------------------
-81  Remove Nth Node From End of List                    Leet1-
+81  Remove Nth Node From End of List                    Leet1
 --------------------------------------------------------------
-82  Flatten 2D Vector                                   Leet1-
+82  Flatten 2D Vector                                   Leet1
 --------------------------------------------------------------
-83  Valid Parentheses                                   Leet1-
+83  Valid Parentheses                                   Leet1
 --------------------------------------------------------------
-84  N-Queens                                            Leet0-          
+84  N-Queens                                            Leet2
 --------------------------------------------------------------
-85  Contains Duplicate II                               Leet1-
+85  Contains Duplicate II                               Leet1
 --------------------------------------------------------------
-86  Rectangle Area                                      Leet0?
+86  Rectangle Area                                      Leet2
 --------------------------------------------------------------
-87  Longest Common Prefix                               Leet0-
+87  Longest Common Prefix                               Leet2
 --------------------------------------------------------------
-88  Implement Trie (Prefix Tree)                        Leet0?
+88  Implement Trie (Prefix Tree)                        Leet2
 --------------------------------------------------------------
-89  Add Binary                                          Leet1-
+89  Add Binary                                          Leet1
 --------------------------------------------------------------
-90  Reverse Integer                                     Leet1-
+90  Reverse Integer                                     Leet1
 --------------------------------------------------------------
-91  Graph Valid Tree                                    Leet0-          
+91  Graph Valid Tree                                    Leet2
 --------------------------------------------------------------
-92  ZigZag Conversion                                   Leet0?
+92  ZigZag Conversion                                   Leet2
 --------------------------------------------------------------
-93  Binary Tree Paths                                   Leet1-
+93  Binary Tree Paths                                   Leet1
 --------------------------------------------------------------
-94  Count Primes                                        Leet0-
+94  Count Primes                                        Leet2
 --------------------------------------------------------------
-95  Min Stack                                           Leet0-          
+95  Min Stack                                           Leet2
 --------------------------------------------------------------
-96  Summary Ranges                                      Leet1-
+96  Summary Ranges                                      Leet1
 --------------------------------------------------------------
-97  Paint Fence                                         Leet0?
+97  Paint Fence                                         Leet2
 --------------------------------------------------------------
-98  Two Sum                                             Leet1-
+98  Two Sum                                             Leet1
 --------------------------------------------------------------
-99  Compare Version Numbers                             Leet1-
+99  Compare Version Numbers                             Leet1
 --------------------------------------------------------------
-100 String to Integer (atoi)                            Leet0?
+100 String to Integer (atoi)                            Leet2
 --------------------------------------------------------------
-101 Shortest Word Distance II                           Leet1
+101 Shortest ord Distance II                            Leet1
 --------------------------------------------------------------
 102 Celebrity                                           Leet1
 --------------------------------------------------------------
-103 Find MinII                                          Leet0
+103 Find MinII                                          Leet2
 --------------------------------------------------------------
-104 Rotate Image                                        Leet0
+104 Rotate Image                                        Leet2
 --------------------------------------------------------------
-105 H-Index                                             Leet0
+105 H-Index                                             Leet2
 --------------------------------------------------------------
-106 H-Index II                                          Leet0
+106 H-Index II                                          Leet2
 --------------------------------------------------------------
-107 Missing Number                                      Leet0
+107 Missing Number                                      Leet2
 --------------------------------------------------------------
 108 Permutations                                        Leet1
 --------------------------------------------------------------
 109 Spiral Matrix II                                    Leet1
 --------------------------------------------------------------
-110 Reverse Words II                                    Leet1
+110 Reverse ords II                                     Leet1
 --------------------------------------------------------------
-111 Set Matrix Zeros                                    Leet0
+111 Set Matrix Zeros                                    Leet2
 --------------------------------------------------------------
 112 Binary Tree Level Order Traversal II                Leet1 
 --------------------------------------------------------------
-113 Search in Rotated Sorted Array II                   Leet0
+113 Search in Rotated Sorted Array II                   Leet2
 --------------------------------------------------------------
 114 Combinations                                        Leet1
 --------------------------------------------------------------
 115 Count Univalue Subtrees                             Leet1
 --------------------------------------------------------------
-116 Verify Preorder Sequence in Binary Search Tree      Leet0
+116 Verify Preorder Sequence in Binary Search Tree      Leet2
 --------------------------------------------------------------
 117 Sum Root to Leaf Numbers                            Leet1
 --------------------------------------------------------------
-118 Trapping Rain Water                                 Leet1
+118 Trapping Rain ater                                  Leet1
 --------------------------------------------------------------
 119 Read N Characters Given Read4                       Leet1
 --------------------------------------------------------------
@@ -242,25 +254,25 @@
 --------------------------------------------------------------
 122 Flatten Binary Tree to Linked List                  Leet1
 --------------------------------------------------------------
-123 Search in Rotated Sorted Array                      Leet0
+123 Search in Rotated Sorted Array                      Leet2
 --------------------------------------------------------------
 124 Subsets                                             Leet1
 --------------------------------------------------------------
-125 Binary Tree Right Side View                         Leet0
+125 Binary Tree Right Side View                         Leet2
 --------------------------------------------------------------
-126 Convert Sorted List to Binary Search Tree           Leet0
+126 Convert Sorted List to Binary Search Tree           Leet2
 --------------------------------------------------------------
 127 Triangle                                            Leet1
 --------------------------------------------------------------
-128 Kth Largest Element in an Array                     Leet0
+128 Kth Largest Element in an Array                     Leet2
 --------------------------------------------------------------
-129 Wiggle Sort                                         Leet1
+129 iggle Sort                                          Leet1
 --------------------------------------------------------------
 130 Populating Next Right II                            Leet1
 --------------------------------------------------------------
 131 Search a 2D Matrix                                  Leet1
 --------------------------------------------------------------
-132 LinedList Cycle II                                  Leet0
+132 LinedList Cycle II                                  Leet2
 --------------------------------------------------------------
 133 Group Shifted Strings                               Leet1
 --------------------------------------------------------------
@@ -282,9 +294,9 @@
 --------------------------------------------------------------
 142 Meeting Rooms II                                    Leet1
 --------------------------------------------------------------
-143 Factor Combinations                                 Leet0
+143 Factor Combinations                                 Leet2
 --------------------------------------------------------------
-144 Partition List                                      Leet0
+144 Partition List                                      Leet2
 --------------------------------------------------------------
 145 Move Zeroes                                         Leet1
 --------------------------------------------------------------
@@ -294,39 +306,39 @@
 --------------------------------------------------------------
 148 Lowest Common Ancestor of a Binary Tree             Leet1
 --------------------------------------------------------------
-149 Palindrome Partitioning                             Leet0
+149 Palindrome Partitioning                             Leet2
 --------------------------------------------------------------
-150 Construct BT from Inorder and Postorder Traversal   Leet0
+150 Construct BT from Inorder and Postorder Traversal   Leet2
 --------------------------------------------------------------
-151 3Sum Closest                                        Leet0
+151 3Sum Closest                                        Leet2
 --------------------------------------------------------------
 152 Insertion Sort List                                 Leet1
 --------------------------------------------------------------
 153 Jump Game                                           Leet1
 --------------------------------------------------------------
-154 Different Ways to Add Parentheses                   Leet0
+154 Different ays to Add Parentheses                    Leet2
 --------------------------------------------------------------
-155 Pow(x, n)                                           Leet0
+155 Pow(x, n)                                           Leet2
 --------------------------------------------------------------
 156 Path Sum II                                         Leet1
 --------------------------------------------------------------
-157 Peeking Iterator                                    Leet0
+157 Peeking Iterator                                    Leet2
 --------------------------------------------------------------
 158 Edit Distance                                       Leet1
 --------------------------------------------------------------
-159 Distinct Subsequences                               Leet0
+159 Distinct Subsequences                               Leet2
 --------------------------------------------------------------
 160 Construct BT from Preorder and Inorder Traversal    Leet1
 --------------------------------------------------------------
-161 Bitwise AND of Numbers Range                        Leet0
+161 Bitwise AND of Numbers Range                        Leet2
 --------------------------------------------------------------
-162 Two Sum III - Data structure design                 Leet0
+162 Two Sum III - Data structure design                 Leet2
 --------------------------------------------------------------
 163 Reverse Linked List II                              Leet1
 --------------------------------------------------------------
-164 Gas Station                                         Leet0
+164 Gas Station                                         Leet2
 --------------------------------------------------------------
-165 Closest Binary Search Tree Value II                 Leet0
+165 Closest Binary Search Tree Value II                 Leet2
 --------------------------------------------------------------
 166 Permutations II                                     Leet?
 --------------------------------------------------------------
@@ -354,21 +366,21 @@
 --------------------------------------------------------------
 178 Perfect Squares                                     Leet1
 --------------------------------------------------------------
-179 Maximum Gap                                         Leet0
+179 Maximum Gap                                         Leet2
 --------------------------------------------------------------
-180 Walls and Gates                                     Leet1
+180 alls and Gates                                      Leet1
 --------------------------------------------------------------
 181 Missing Ranges                                      Leet1
 --------------------------------------------------------------
 182 Group Anagrams                                      Leet1
 --------------------------------------------------------------
-183 Sqrt(x)                                             Leet0
+183 Sqrt(x)                                             Leet2
 --------------------------------------------------------------
 184 Minimum Size Subarray Sum                           Leet1
 --------------------------------------------------------------
 185 Sort List                                           Leet?
 --------------------------------------------------------------
-186 Word Break                                          Leet?
+186 ord Break                                           Leet?
 --------------------------------------------------------------
 187 Jump Game II                                        Leet1
 --------------------------------------------------------------
@@ -378,11 +390,11 @@
 --------------------------------------------------------------
 190 Valid Palindrome                                    Leet1
 --------------------------------------------------------------
-191 First Missing Positive                              Leet0
+191 First Missing Positive                              Leet2
 --------------------------------------------------------------
 192 Course Schedule                                     Leet?
 --------------------------------------------------------------
-193 Sliding Window Maximum                              Leet1
+193 Sliding indow Maximum                               Leet1
 --------------------------------------------------------------
 194 Largest Rectangle in Histogram                      Leet$
 --------------------------------------------------------------
@@ -394,15 +406,15 @@
 --------------------------------------------------------------
 198 Game of Life                                        Leet1
 --------------------------------------------------------------
-199 Ugly Number II                                      Leet0
+199 Ugly Number II                                      Leet2
 --------------------------------------------------------------
-200 Evaluate Reverse Polish Notation                    Leet0
+200 Evaluate Reverse Polish Notation                    Leet2
 --------------------------------------------------------------
 201 Largest Number                                      Leet1 
 --------------------------------------------------------------
 202 Permutation Sequence                                Leet? 
 --------------------------------------------------------------
-203 Word Pattern                                        Leet1 
+203 ord Pattern                                         Leet1 
 --------------------------------------------------------------
 204 Flip Game                                           Leet1 
 --------------------------------------------------------------
@@ -414,15 +426,17 @@
 --------------------------------------------------------------
 208 Serialize and Deserialize Binary Tree               Leet1
 --------------------------------------------------------------
-209 Unique Word Abbreviation                            Leet1
+209 Unique ord Abbreviation                             Leet1
 --------------------------------------------------------------
 210 Zigzag Iterator                                     Leet1
 --------------------------------------------------------------
-211 Best Meeting Point                                  Leet0
+211 Best Meeting Point                                  Leet2
 --------------------------------------------------------------
 212 Flip Game II                                        Leet?
 --------------------------------------------------------------
 213 Binary Tree Zigzag Level Order Traversal            Leet1
+--------------------------------------------------------------
+214 Number of Islands                                   Leet1
 
 
 
