@@ -1,6 +1,6 @@
 |==================================================================|
 | Copy Right YMSys 2015                                            |
-| 1:    I know how to solve it, and I get the best solution;       |
+| 1:    I solve and get the best solution, complexity given;       |
 | 2:    There could be better solution;                            |
 | 3:    I can write white board solution;                          |
 | 4:    I can write bug free white board solution, and hand debug; |
@@ -10,26 +10,26 @@
 
 
 -------------------------------------------------------------------------------
-1   Single Number                                       Leet1 | Leet1(1)   
+1   Single Number                                       Leet1 | Leet1(1)  
 -------------------------------------------------------------------------------
-2   Delete Node in a Linked List                        Leet1
----------------------------------------------------------------------
-3   Maximum Depth of Binary Tree                        Leet1
----------------------------------------------------------------------
+2   Delete Node in a Linked List                        Leet1 | Leet?(5)
+--------------------------------------------------------------------------
+3   Maximum Depth of Binary Tree                        Leet1 | Leet1(1)
+-------------------------------------------------------------------------
 4   Add Digits                                          Leet1 | Leet2(1)
 ------------------------------------------------------------------------------
 5   Palindrome Permutation                              Leet1 | Leet1(1)
 ------------------------------------------------------------------------------
-6   Two Sum II - Input array is sorted                  Leet1
----------------------------------------------------------------
-7   Same Tree                                           Leet1
+6   Two Sum II - Input array is sorted                  Leet1 | Leet1(2)
+-------------------------------------------------------------------------
+7   Same Tree                                           Leet1 |
 ---------------------------------------------------------------
 8   Shortest ord Distance II                            Leet1 
 --------------------------------------------------------------
 9   Best Time to Buy and Sell Stock II                  Leet1 
---------------------------------------------------------------
-10  Shortest ord Distance                               Leet1
---------------------------------------------------------------
+-----------------------------------------------------------------------------
+10  Shortest word Distance                              Leet1 | Leet2(1)
+------------------------------------------------------------------------------
 11  Number of 1 Bits                                    Leet1
 --------------------------------------------------------------
 12  Invert Binary Tree                                  Leet1
@@ -437,6 +437,10 @@
 213 Binary Tree Zigzag Level Order Traversal            Leet1
 --------------------------------------------------------------
 214 Number of Islands                                   Leet1
+--------------------------------------------------------------
+215 Smallest Rectangle Enclosing Black Pixels           Leet1
+--------------------------------------------------------------
+216 Longest Increasing Subsequence                      Leet1
 
 
 
