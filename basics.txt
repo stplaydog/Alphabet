@@ -10,7 +10,8 @@
 
 
 -----------------------------------------------------------------------------------------
-0   funcs: isalnum/tolower/make_heap/pop_heap/push_heap/next_permutation/
+0   funcs: isalnum/tolower/make_heap/pop_heap/push_heap/next_permutation
+    insert/erase/
 -----------------------------------------------------------------------------------------
 1   GCD/LCM                                                                         Leet1
 -----------------------------------------------------------------------------------------
@@ -53,5 +54,5 @@
 20 BT depth/invert/pre-in-post-lvl-vertical-zigzag/upsideDown/consecutive/balance
       up-left-right/min depth/flatten-serialize                                     Leet1
 -----------------------------------------------------------------------------------------
-21 perm|comb list I II/next/kth/
+21 perm|comb list I II/next/kth/comb sum I II III/
       
