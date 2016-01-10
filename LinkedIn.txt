@@ -1,40 +1,40 @@
 1)  Find (one) all triangle (pythagorean) tripets (http://www.geeksforgeeks.org/find-number-of-triangles-possible/)  
 2)  all substring count
-3)  word ladder (I II)
-4)  (reverse) polish notation
+3)  Leet  --  word ladder (I II)
+4)  Leet  --  (reverse) polish notation
 5)  top K
 6)  union and intersection of list
-7)  insert interval
+7)  Leet  --  insert interval
 8)  fisher yates shuffle 
-9)  lvl order traversal
+9)  Leet  --  lvl order traversal
 10) given edges build tree
-11) 2 sum
-12) bin search (shifted)
-13) valid number
-14) longest palindrom substring
-15) bin tree upside down
+11) Leet  --  2 sum
+12) Leet  --  bin search (shifted)
+13) Leet  --  valid number
+14) Leet  --  longest palindrom substring
+15) Leet  --  bin tree upside down
 16) count of common letter
-17) word distance
-18) first common ancestor
-19) maximum subarray (kadane's algo)
-20) maximum product subarray 
-21) search for a range
+17) Leet  --  word distance
+18) Leet  --  first common ancestor
+19) Leet  --  maximum subarray (kadane's algo)
+20) Leet  --  maximum product subarray 
+21) Leet  --  search for a range
 22) word wrap
-23) Product of Array Except Self
-24) pow(x,n)
-25) all permutation
+23) Leet  --  Product of Array Except Self
+24) Leet  --  pow(x,n)
+25) Leet  --  all permutation
 26) PointsOnAPlane 
-27) shortest word distance
-28) Repeated DNA Sequences
-29) Isomorphic Strings
+27) Leet  --  shortest word distance
+28) Leet  --  Repeated DNA Sequences
+29) Leet  --  Isomorphic Strings
 30) min gap two arrays
-31) Reverse Words in a String I II
-32) Majority Element
+31) Leet  --  Reverse Words in a String I II
+32) Leet  --  Majority Element
 33) blocking queue
-34) Remove Nth Node From End of List
+34) Leet  --  Remove Nth Node From End of List
 35) decimal to hex
-36) k merge
-37) sqrt
+36) Leet  --  k merge
+37) Leet  --  sqrt
 38) bipartite graph
 
 http://www.careercup.com/question?id=5116481574535168

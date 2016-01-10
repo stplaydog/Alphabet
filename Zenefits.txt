@@ -1,0 +1,4 @@
+1) scoreboard design
+2) 
+3) define a operation 1 op 0 has p% to 1
+4) tiny url 
