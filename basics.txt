@@ -11,7 +11,7 @@
 
 -----------------------------------------------------------------------------------------
 0   funcs: isalnum/tolower/make_heap/pop_heap/push_heap/next_permutation
-    insert/erase/isdigit/stoi/accumulate
+    insert/erase/isdigit/stoi/accumulate/priority_queue
 -----------------------------------------------------------------------------------------
 1   GCD/LCM                                                                         Leet1
 -----------------------------------------------------------------------------------------
@@ -55,4 +55,6 @@
       up-left-right/min depth/flatten-serialize                                     Leet1
 -----------------------------------------------------------------------------------------
 21 perm|comb list I II/next/kth/comb sum I II III/
+-----------------------------------------------------------------------------------------
+22 substr problems
       
