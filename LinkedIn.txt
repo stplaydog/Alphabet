@@ -1,7 +1,7 @@
 1)  Find (one) all triangle (pythagorean) tripets (http://www.geeksforgeeks.org/find-number-of-triangles-possible/)  
 2)  all substring count
 3)  Leet  --  word ladder (I II)
-4)  Leet  --  (reverse) polish notation
+4)  Leet  --  (reverse) polish notation, post fix
 5)  top K
 6)  union and intersection of list
 7)  Leet  --  insert interval
@@ -36,21 +36,18 @@
 36) Leet  --  k merge
 37) Leet  --  sqrt
 38) bipartite graph
+39) nested integer
+40) flowerbed house painting etc
+41) integer part of log2 
 
 http://www.careercup.com/question?id=5116481574535168
 http://www.careercup.com/question?id=5653460783464448
-http://www.careercup.com/question?id=5670717928505344
 http://www.careercup.com/question?id=5140138881449984
-http://www.careercup.com/question?id=5119852580700160
 http://www.careercup.com/question?id=4695029784248320
 http://www.careercup.com/question?id=5914549945368576
 
-http://www.careercup.com/question?id=15062875
-http://www.careercup.com/question?id=15066892
 http://www.careercup.com/question?id=15028935
-http://www.careercup.com/question?id=14622668
 
-http://www.careercup.com/question?id=7630684
 http://www.careercup.com/question?id=4439680
 http://www.careercup.com/question?id=416293
 http://www.careercup.com/question?id=13262681
