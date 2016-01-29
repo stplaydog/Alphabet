@@ -1,0 +1,29 @@
+1) Sagar Raut
+    - elevating talk
+    - about SCA project
+    - dig into detail about performance evaluation
+
+2) Jagadish Venkatraman, Neha Pawar
+    - design persistant buffer
+    - constructor destructor
+    - get, put
+    - allocate deallocate
+
+3) Tom Goetze
+    - Lunch talk about culture
+    - about some of the graph features
+    
+4) Christopher McLean
+    - about research
+    - why I did not find FLAG job after graduation
+    - significant achievement
+    - DB deletion problem
+    
+5) Segei Kuzmin, Keheng Zhang
+    - word ladder
+    
+6) Bryan Barkley, Chenji Pan
+    - Tiny Url
+    - how to avoid conflict
+    - how to store the db info
+    - how to collect summary 
