@@ -1,0 +1,15 @@
+|==================================================================|
+| Copy Right YMSys 2015                                            |
+| 1:    I solve and get the best solution, complexity given;       |
+| 2:    There could be better solution;                            |
+| 3:    I can write white board solution;                          |
+| 4:    I can write bug free white board solution, and hand debug; |
+| ?:    I don't know how to solve it;                              |
+| (n):  Num of submissions;                                        |
+|==================================================================|
+
+
+-----------------------------------------------------------------------------------------
+1   Leet1   Decode Ways
+-----------------------------------------------------------------------------------------
+      
