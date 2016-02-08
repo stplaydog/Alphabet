@@ -27,3 +27,6 @@
     - how to avoid conflict
     - how to store the db info
     - how to collect summary 
+    - goo.gl/qtCsB9
+    - goo.gl/IIAi8k
+    - goo.gl/AaKcdu

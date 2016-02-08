@@ -1,6 +1,0 @@
-In dynamic binding the code matching the object under current reference will be called at.
--Compile time
--Run time
--Editing time
--Binding time
---------------------------------------------------------------------------------------------------------
