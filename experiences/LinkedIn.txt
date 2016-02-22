@@ -1,7 +1,7 @@
-1)  Find (one) all triangle (pythagorean) tripets (http://www.geeksforgeeks.org/find-number-of-triangles-possible/)  
+1)  Find (one) all triangle (pythagorean) tripets [goo.gl/kFOZKa]
 2)  all substring count
 3)  Leet  --  word ladder (I II)
-4)  Leet  --  (reverse) polish notation, post fix
+4)  Leet  --  (reverse) polish notation, post fix [goo.gl/F9SOa9]
 5)  top K
 6)  union and intersection of list
 7)  Leet  --  insert interval
@@ -23,13 +23,13 @@
 23) Leet  --  Product of Array Except Self
 24) Leet  --  pow(x,n)
 25) Leet  --  all permutation
-26) PointsOnAPlane 
-27) Leet  --  shortest word distance
+26) PointsOnAPlane [goo.gl/9MBl6j]
+27) Leet  --  shortest word distance [goo.gl/Iao6ZA] [goo.gl/VOfWe7] []
 28) Leet  --  Repeated DNA Sequences
 29) Leet  --  Isomorphic Strings
 30) min gap two arrays
 31) Leet  --  Reverse Words in a String I II
-32) Leet  --  Majority Element
+32) Leet  --  Majority Element 3/N [goo.gl/5pbHtX]
 33) blocking queue
 34) Leet  --  Remove Nth Node From End of List
 35) decimal to hex
@@ -39,19 +39,12 @@
 39) nested integer
 40) flowerbed house painting etc
 41) integer part of log2 
-
-http://www.careercup.com/question?id=5116481574535168
-http://www.careercup.com/question?id=5653460783464448
-http://www.careercup.com/question?id=5140138881449984
-http://www.careercup.com/question?id=4695029784248320
-http://www.careercup.com/question?id=5914549945368576
-
-http://www.careercup.com/question?id=15028935
-
-http://www.careercup.com/question?id=4439680
-http://www.careercup.com/question?id=416293
-http://www.careercup.com/question?id=13262681
-http://www.careercup.com/question?id=12179920
-http://www.careercup.com/question?id=11472934
-http://www.careercup.com/question?id=10184902
-http://www.careercup.com/question?id=9843862
+42) Nim game / coins in a line
+43) H2O
+45) BST iterator [goo.gl/4cT5FH]
+46) output number using n1 1 n2 2 n3 3 n4 4
+47) consumer producer priority queue
+48) BIG table
+49) brackets find the depth
+50) Leet  --  Minimum Window Substring
+51) string to int

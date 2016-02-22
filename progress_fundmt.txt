@@ -8,7 +8,7 @@
 | (n):  Num of submissions;                                        |
 |==================================================================|
 
-
+http://bigocheatsheet.com/
 -----------------------------------------------------------------------------------------
 0   funcs: isalnum/tolower/make_heap/pop_heap/push_heap/next_permutation
     insert/erase/isdigit/stoi/accumulate/priority_queue

@@ -1,33 +1,11 @@
-1)  MapReduce                           READ1
-2)  Bigtable                            READ1
-3)  The Google File System              READ1
-4)  Chubby                              READ?
-5)  Dynamo                              READ1
-6)  Pregel
-7)  Spanner
----------------------------------------------
-8)  Introduction to Memcached           READ?
-9)  Cassandra Introduction Features     READ?
-10) Introduction to HBase               READ?                                
-11) Introduction to MongoDB             READ?                                             
-12) Introduction to Redis               READ?   Yet another memcache
-13) Storm                               READ?   ?
-14) Introduction to Zookeeper           READ1   mpi
-15) Kafka                               READ1   scheduler
-16) YouTube Architecture                READ1
-17) Scalinig Pinterest                  READ1   solr
----------------------------------------------
-18) Google Architecture                 READ1
-19) Scaling Twitter                     READ1   RAM  Scala Side-project
-20) The WhatsApp Architecture           READ1   Erlang
-21) Amazon Architecture                 READ1   C++
--------------------------highscalability.com-
-22) Flickr Architecture                 READ1
-23) Stack Overflow Architecture         READ1   PEAR 
-24) Pinterest Architecture              READ1   Amazon Shard
-25) Tumblr Architecture                 READ1
-26) Instagram Architecture              READ1   Amazon
-27) TripAdvisor Architecture            READ1
-28) Scaling Mailbox                     READ1
-29) Salesforce Architecture             READ1
-30) ESPN's Architecture                 READ0
+|==================================================================|
+| Copy Right YMSys 2015                                            |
+| 1:    if read, follow with a short url                           | 
+| *:    if important, mark with *                                  |
+|==================================================================|
+
+
+-------------------------------------------------------------------------------
+1.  HOW TO ACE A SYSTEMS DESIGN INTERVIEW              goo.gl/ztCqUe 
+-------------------------------------------------------------------------------
+2.  System Interview                                   goo.gl/Djbh33 goo.gl/NXZp6A 
