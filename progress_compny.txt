@@ -1,11 +1,14 @@
 1)  Google      recruiter       Phone           Onsite
 2)  Facebook    refer           recruiter       Phone       
 3)  Aamzon      online          Onsite
-4)  Zenefits    refer
+4)  Zenefits    refer           OA              Phone       Onsite
 5)  Groupon     online
 6)  Walmart      
-7)  LinkedIn    online
+7)  LinkedIn    recruiter       Phone           Onsite
 8)  Uber
 9)  Palantir
 10) Apple       refer
 11) AirBnB
+12) Vmware      online          OA              onsite      2phones
+13) Riverbed    phone           h1b
+14) MSFT        recruiter
