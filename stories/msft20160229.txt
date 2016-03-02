@@ -1,0 +1,9 @@
+1) - talk about project
+   - closest binary search tree value
+2) - how to simulate latency
+   - how to simulate failure rate
+   - how to not block
+3) - chess horse TSP
+   - Search on a 2D matrix
+4) - backtrack all possible string upper case lower case
+   - score board -- what if transaction happens?
