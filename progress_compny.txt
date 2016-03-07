@@ -11,4 +11,4 @@
 11) AirBnB
 12) Vmware      online          OA              onsite      2phones
 13) Riverbed    phone           h1b
-14) MSFT        recruiter
+14) MSFT        recruiter       OTS             onsite
