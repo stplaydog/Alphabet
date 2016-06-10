@@ -1,0 +1,7 @@
+1) Constructor / destructor of global variables;
+2) How inline is executed in the compilor;
+3) How automic / mutex implemented;
+4) Advantage of red / black tree;
+5) How to implement a column based DB;
+6) Why destructor is virtual;
+7) What if tcp send buffer overflow.

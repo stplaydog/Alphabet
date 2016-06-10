@@ -1,0 +1,4 @@
+
+1.  set dscp                            goo.gl/u6kYKs
+2.  ip vs tcp                           goo.gl/2FpGd7
+3.  spark cluster setup                 goo.gl/9uNtAa

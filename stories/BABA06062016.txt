@@ -1,0 +1,4 @@
+1) Briefly describe your project;
+2) Why do you design application protocols? what's the different between other protocols?
+3) describe internet models;
+4) what bugs do you fixed before? Give an example?

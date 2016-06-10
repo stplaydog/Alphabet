@@ -1,0 +1,5 @@
+1) remove duplicate in linked list
+2) sqrt of a double number
+3) explain polymorphism
+4) partition points by connecting an edge between two points
+5) How to implement priority queue
