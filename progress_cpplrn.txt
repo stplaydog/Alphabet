@@ -8,3 +8,5 @@ struct vs class                                 goo.gl/FvZLVS
 const in template                               goo.gl/EOKD8j
 stoi                                            goo.gl/S8bYaY
 automake                                        goo.gl/SgmdgV
+bits to integer                                 goo.gl/IRPCOv
+quiz                                            goo.gl/IhLvF

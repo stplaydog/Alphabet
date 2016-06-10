@@ -1,0 +1,24 @@
+suppose you receive message
+
+|4 bytes len|-----------len------| ... 
+
+and the data stream is like:
+|t_1 bytes|t_2 bytes|t_3 bytes|t_n bytes|
+
+any time, t_i could be 1 to n bytes
+
+-----------------------------------------
+
+given:
+
+send(const char *msg, int len);
+
+design:
+
+class sender
+{
+   void accept(const char * data, int len)
+   {
+   }
+};
+

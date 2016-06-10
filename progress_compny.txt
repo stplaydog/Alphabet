@@ -7,8 +7,9 @@
 7)  LinkedIn    recruiter       Phone           Onsite
 8)  Uber
 9)  Palantir
-10) Apple       refer           recruiter
+10) Apple       refer           recruiter       Phone
 11) AirBnB
 12) Vmware      online          OA              onsite      2phones
 13) Riverbed    phone           h1b
 14) MSFT        recruiter       OTS             onsite
+15) BABA        recruiter       phone1          phone2      phone3      phone4 
