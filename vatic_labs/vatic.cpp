@@ -346,11 +346,11 @@ public:
 
 int main(int argc, char* argv[])
 {
-//TradeData t(argv[1], argv[2]);
+    TradeData t(argv[1], argv[2]);
 
-    TradeData t1("quo.csv", "trd.csv");
-    PriceData::Item item = t1.m_data.searchLatest(2, string("ABC"));
-    assert(item.time == 1 && true == same(item.bid, 10.05) && same(item.ask, 10.06) && item.symb == "ABC");
+    //TradeData t1("quo.csv", "trd.csv");
+    //PriceData::Item item = t1.m_data.searchLatest(2, string("ABC"));
+    //assert(item.time == 1 && true == same(item.bid, 10.05) && same(item.ask, 10.06) && item.symb == "ABC");
 
     return 0;
 }
