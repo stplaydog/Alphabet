@@ -34,7 +34,13 @@ public:
         {
             cout<<symb.c_str()<<" "<<time<<" "<<bid<<" "<<ask<<endl;
         }
+
+        bool operator<(const Item& a) const
+        {
+            return symb < a.symb;
+        }
     };
+
 
     typedef map<int, vector<Item>>         pdata;
     typedef map<string, vector<int>>       smap;
@@ -88,23 +94,20 @@ public:
 
         for(auto i = m_index.begin(); i != m_index.end(); ++i)
             sort(i->second.begin(), i->second.end());
-        //dump();
+
+        for(auto i = m_data.begin(); i != m_data.end(); ++i)
+            sort(i->second.begin(), i->second.end());
+        dump();
     }
 
     Item searchLatest(int time, string symb)
     {
+        Item ret;
+        ret.symb = symb;
         auto pos = lower_bound(m_index[symb].begin(), m_index[symb].end(), time);
-        int t    = pos-m_index[symb].begin();
-        if(t==m_index[symb].size())
-            t = m_index[symb][m_index[symb].size()-1];
-        vector<Item> d = m_data[t];
-        for(auto it = d.begin(); it != d.end(); ++it)
-        {
-            if(it->symb == symb)
-            {
-                return *it;
-            }
-        }
+        int tt = *pos == time ? time : *prev(pos);
+        ret = *lower_bound(m_data[tt].begin(), m_data[tt].end(), ret);
+        return ret;
     }
 
     void dump()
@@ -161,7 +164,10 @@ public:
         while(getline(infile, line))
         {
             if(i++ == 0)
+            {
+                cout<<"OPEN_TIME,CLOSE_TIME,SYMBOL,QUANTITY,PNL,OPEN_SIDE,CLOSE_SIDE,OPEN_PRICE,CLOSE_PRICE,OPEN_BID,CLOSE_BID,OPEN_ASK,CLOSE_ASK,OPEN_LIQUIDITY,CLOSE_LIQUIDITY"<<endl;
                 continue;
+            }
             stringstream linestream(line);
             string f[5];
 
@@ -268,13 +274,20 @@ public:
 
     string getLiquidity(string &type, double price, double bid, double ask)
     {
+        //cout<<"price:"<<price<<" type:"<<type<<" bid:"<<bid<<" ask:"<<ask<<endl;
         if(type == "B")
         {
-            return price <= bid ? "P" : "A";
+            if (price <= bid) 
+                return "P"; 
+            else if(price >= ask)
+                return "A";
         }
         else
         {
-            return price >= ask ? "P" : "A";
+            if (price >= ask) 
+                return "P"; 
+            else if(price <= bid)
+                return "A";
         }
     }
 
@@ -292,7 +305,7 @@ public:
             buy  = b.price;
             sell = a.price;
         }
-        return (sell- buy)*qt;
+        return fabs((sell- buy)*qt);
     }
 
 
@@ -346,12 +359,6 @@ public:
 
 int main(int argc, char* argv[])
 {
-//TradeData t(argv[1], argv[2]);
-    PriceData p(argv[1]);
-
-    //TradeData t1("quo.csv", "trd.csv");
-    //PriceData::Item item = t1.m_data.searchLatest(2, string("ABC"));
-    //assert(item.time == 1 && true == same(item.bid, 10.05) && same(item.ask, 10.06) && item.symb == "ABC");
-
+    TradeData t(argv[1], argv[2]);
     return 0;
 }
