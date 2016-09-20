@@ -1,5 +1,5 @@
 #include <iostream>
-# include <sstream>
+#include <sstream>
 #include <map>
 #include <vector>
 #include <algorithm>
@@ -346,7 +346,8 @@ public:
 
 int main(int argc, char* argv[])
 {
-    TradeData t(argv[1], argv[2]);
+//TradeData t(argv[1], argv[2]);
+    PriceData p(argv[1]);
 
     //TradeData t1("quo.csv", "trd.csv");
     //PriceData::Item item = t1.m_data.searchLatest(2, string("ABC"));
