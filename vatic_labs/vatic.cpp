@@ -1,5 +1,5 @@
-#include "CSVparser.h"
 #include <iostream>
+# include <sstream>
 #include <map>
 #include <vector>
 #include <algorithm>
@@ -7,6 +7,7 @@
 #include <cassert>
 #include <queue>
 #include <iomanip>
+#include <fstream>
 
 using namespace std;
 
@@ -40,15 +41,27 @@ public:
 
     PriceData(const char * file)
     {
-        csv::Parser f = csv::Parser(file);
-        for(uint32_t i=0; i<f.rowCount(); i++)
+        ifstream infile(file);
+        int i=0;
+        string line;
+        while(getline(infile, line))
         {
-            int time = stoi(f[i][0]);
+            if(i++ == 0)
+                continue;
+            stringstream linestream(line);
+            string f[4];
+
+            getline(linestream, f[0], ',');
+            getline(linestream, f[1], ',');
+            getline(linestream, f[2], ',');
+            getline(linestream, f[3], ',');
+
+            int time = stoi(f[0]);
             Item itm;
             itm.time = time;
-            itm.symb = f[i][1];
-            itm.bid  = stof(f[i][2]); 
-            itm.ask  = stof(f[i][3]); 
+            itm.symb = f[1];
+            itm.bid  = stof(f[2]); 
+            itm.ask  = stof(f[3]); 
             //itm.dump();
             auto it = m_data.find(time);
             if(it == m_data.end())
@@ -141,18 +154,32 @@ public:
     TradeData(const char* priceFile, const char *file)
         : m_data(priceFile)
     {
-        csv::Parser f = csv::Parser(file);
-        for(uint32_t i=0; i<f.rowCount(); i++)
-        {
-            Item itm;
-            int time      = stoi(f[i][0]);
-            itm.time      = time;
-            itm.symb      = f[i][1];
-            itm.side      = f[i][2];
-            itm.price     = stof(f[i][3]); 
-            itm.quantity  = stoi(f[i][4]); 
+        ifstream infile(file);
+        int i=0;
+        string line;
 
-            if(f[i][2] == "B")
+        while(getline(infile, line))
+        {
+            if(i++ == 0)
+                continue;
+            stringstream linestream(line);
+            string f[5];
+
+            getline(linestream, f[0], ',');
+            getline(linestream, f[1], ',');
+            getline(linestream, f[2], ',');
+            getline(linestream, f[3], ',');
+            getline(linestream, f[4], ',');
+
+            Item itm;
+            int time      = stoi(f[0]);
+            itm.time      = time;
+            itm.symb      = f[1];
+            itm.side      = f[2];
+            itm.price     = stof(f[3]); 
+            itm.quantity  = stoi(f[4]); 
+
+            if(f[2] == "B")
             {
                 if(!check_finish(itm, m_pend))
                     place_item(itm, m_inv);
@@ -319,11 +346,11 @@ public:
 
 int main(int argc, char* argv[])
 {
-    TradeData t(argv[1], argv[2]);
+//TradeData t(argv[1], argv[2]);
 
-    //TradeData t1("quo.csv", "trd.csv");
-    //PriceData::Item item = t1.m_data.searchLatest(2, string("ABC"));
-    //assert(item.time == 1 && true == same(item.bid, 10.05) && same(item.ask, 10.06) && item.symb == "ABC");
+    TradeData t1("quo.csv", "trd.csv");
+    PriceData::Item item = t1.m_data.searchLatest(2, string("ABC"));
+    assert(item.time == 1 && true == same(item.bid, 10.05) && same(item.ask, 10.06) && item.symb == "ABC");
 
     return 0;
 }
