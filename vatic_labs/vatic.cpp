@@ -124,7 +124,7 @@ public:
         double price;
         int    quantity;
 
-        string dump()
+        void dump()
         {
             cout<<symb.c_str()<<" "<<time<<" "<<price<<" "<<quantity<<endl;
         }
@@ -137,20 +137,74 @@ public:
         csv::Parser f = csv::Parser(file);
         for(uint32_t i=0; i<f.rowCount(); i++)
         {
+            Item itm;
+            int time      = stoi(f[i][0]);
+            itm.time      = time;
+            itm.symb      = f[i][1];
+            itm.price     = stof(f[i][3]); 
+            itm.quantity  = stoi(f[i][4]); 
+
             if(f[i][2] == "B")
             {
-                Item itm;
-                int time      = stoi(f[i][0]);
-                itm.time      = time;
-                itm.symb      = f[i][1];
-                itm.price     = stof(f[i][3]); 
-                itm.quantity  = stoi(f[i][4]); 
-                itm.dump();
+                if(!check_finish(itm))
+                    place_item(itm, m_inv);
             }
             else
             {
+                if(!check_finish(itm))
+                    place_item(itm, m_pend);
             }
         }
+    }
+
+    bool check_finish(Item & itm, inventory & inv)
+    {
+        auto it = inv.find(itm.symb);
+        if(!it)
+            return false;
+        else
+        {
+            while(itm.quantity && it != inv[itm.symb].end())
+            {
+                int diff = itm.quantity - it->quantity;
+                print_record(itm, *it);
+                if(diff == 0)
+                {
+                    erase(it++);
+                    break;
+                }
+                else if(diff < 0)
+                {
+                    it->quantity -= itm.quantity;
+                    break;
+                }
+                else if(diff > 0)
+                {
+                    erase(it++);
+                }
+            }
+            if(itm.quantity)
+                return false;
+        }
+        return true;
+    }
+
+    void print_record(Item & a, Item & b)
+    {
+    }
+
+
+    void place_item(const Item & itm, inventory & inv)
+    {
+        auto it = inv.find(itm.symb);
+        if(it == m_inv.end())
+        {
+            queue<Item> q;
+            q.push(itm);
+            m_inv[itm.symb] = q;
+        }
+        else
+            it->second.push(itm);
     }
 
     void dump()
@@ -158,6 +212,7 @@ public:
     }
 
     inventory m_inv;
+    inventory m_pend;
 };
 
 
