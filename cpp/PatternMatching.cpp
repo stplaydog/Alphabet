@@ -34,6 +34,58 @@ public:
         return false;
     }
 
+    bool match1()
+    {
+        bool ret = false;
+        for(int i=1; i<m_value.length(); ++i)
+        {
+            try{
+                string m = m_value.substr(0, i);
+                string n = get_n(m);
+                string built = buildString(m, n);
+                if(built == m_value)
+                {
+                    ret =  true;
+                    break;
+                }
+            }
+            catch(...)
+            {
+               continue; 
+            }
+        }
+        return ret;
+    }
+
+    string get_n(const string& m)
+    {
+        string ret;
+        int num_main = 0;
+        for(int i=0; i<m_pattern.size(); i++)
+        {
+            if(m_pattern[i] == m_pattern[0])
+            {
+                num_main++;
+            }
+        }
+
+        int num_alt = m_pattern.length() - num_main;
+        int length_alt = (m_value.length() - num_main * m.length()) / num_alt;
+
+        char alter = m_pattern[0] == 'a' ? 'b' : 'a';
+
+        for(int i=0, j=0; i<m_pattern.length(); i++, j+= m.length())
+        {
+            if(m_pattern[i] == alter)
+            {
+                ret = m_value.substr(j, length_alt);
+                break;
+            }
+        }
+        return ret;
+    }
+
+
     string buildString(const string &m, const string & n)
     {
         char main_letter = m_pattern[0];
@@ -65,4 +117,7 @@ int main(int argc, char* argv[])
 
     assert(pm1.matchBruteForce() == true);
     assert(pm2.matchBruteForce() == false);
+
+    assert(pm1.match1() == true);
+    assert(pm2.match1() == false);
 }
