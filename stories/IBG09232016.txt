@@ -1,0 +1,103 @@
+Please turn off text replacement by opening Tools->Preferences and deselecting the capitalization, smart quotes, and substitution settings.
+
+
+...
+#include <string.h>
+
+// "abs"    -> "sba"
+// "aabb"   -> "bbaa" abab (1,2) aabb (2,1)
+// NULL     -> 0
+// ""       -> ""
+// "a"
+
+int reverse(char * input){
+    if(!input) return 0;
+    size_t end   = strlen(input);
+    size_t begin = 0;
+    while(end && begin<end)
+    { 
+        swap(input[begin], input[end-1]);
+        begin++;
+        end--;
+    }
+    return 1;
+}
+
+Singleton* Singleton::ins = NULL;
+
+class Singleton
+{
+    public:
+        static Singleton * instance()
+        {
+            if(!ins)
+            {
+                accquire_lock()
+                    if(!ins) 
+                    {
+                        ins = new Singleton();
+                    }
+            }
+            return ins;
+        }
+
+        foo()
+        {
+            acquire_lock();
+            ...
+                release_lock();
+        }
+
+    private:
+        Singleton();
+        static Singleton *ins;
+        Lock lock;
+};
+
+Singleton::instance()->foo();
+
+class func
+{
+    func(T va1, T val2);
+};
+template <typename T>
+class set
+{
+    public:
+        // big three 
+        set(){}
+        set(const set & s){}
+        set & operator=(const set & s){
+        }
+        virtual ~set(){}
+
+
+        bool insert(T val, func & f);
+        bool delete(T val);
+        bool exist(T val);
+        iterator begin();
+        iterator end();
+
+        // iterator const_iterator
+        class iterator;
+
+    private:
+
+}
+
+template<class T>
+bool func(const T & a, const T &b);
+
+    template<class T>
+bool compare(const T& first, const T& second, func &f)
+{
+    return func(first, second);
+}
+
+
+int main()
+{
+    int x = 1;
+    int y = 2;
+    compare(x, y, [](int a, int b) { return a < b; });
+}
