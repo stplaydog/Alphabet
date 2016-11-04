@@ -1,0 +1,6 @@
+Interviewer : Jiufeng
+
+Interviewer : Zhengyu
+1) Proj introduction
+2) design patterns
+3) 

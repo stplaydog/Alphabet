@@ -1,0 +1,44 @@
+Interviewer : Derek Du
+
+// Union tree: binary tree with all elemetns identical
+
+    1
+  1    1    5 sub trees that are union tree
+1  2 1  1 
+      
+struct Node {
+  int val;
+  Node* left;
+  Node* right;
+};
+
+bool isUnion(Node * root)
+{
+  bool ret = true;
+  if(!root) return true;
+  helper(root, root->val, ret);
+  return ret;
+}
+
+void helper(Node* root, int val, bool & ret)
+{
+  if(!root) return;
+  if(root && root->val != val)
+    ret = false;
+  helper(root->left, val, ret);
+  helper(root->right, val, ret);
+}
+
+int numUnion(Node *root)
+{
+  if(root && !root->left && !root->right) return 1;
+  int numLeftUnion = root->left ? numUnion(root->left) : 0;
+  int numrightUion = root->right ? numUnion(root->right) : 0;
+  int valleft = root->left ? root->left->val : root->val;
+  int valright = root->right ? root->right->val : root->val;
+
+  if(root->val == valleft && root->val == valright)
+    return numLeft+numright+1;
+  else
+    return numLeft+numright;
+}

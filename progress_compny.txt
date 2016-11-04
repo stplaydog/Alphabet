@@ -1,6 +1,6 @@
 1)  Google      recruiter       Phone           Onsite
 2)  Facebook    refer           recruiter       Phone       
-3)  Aamzon      online          Onsite
+3)  Amazon      online          Onsite
 4)  Zenefits    refer           OA              Phone       Onsite
 5)  Groupon     online
 6)  Walmart      
@@ -12,4 +12,7 @@
 12) Vmware      online          OA              onsite      2phones
 13) Riverbed    phone           h1b
 14) MSFT        recruiter       OTS             onsite
-15) BABA        recruiter       phone1          phone2      phone3      phone4 
+15) BABA        recruiter       phone1          phone2      phone3      phone4  phonex  offer 
+16) IBG         recruiter       online          phone1 
+17) Citadel     recruiter       phone1
+18) Vatic Labs  recruiter       24hr OTS 
