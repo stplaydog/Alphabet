@@ -5,3 +5,15 @@ autoconf
 automake -a
 ./configure
 make
+
+# naming standard
+map                          --  mp
+unordered_map                --  ump
+vector                       --  vec
+vector iterator              --  vit
+map iterator                 --  mit
+unordered map iterator       --  umit
+return val                   --  ret
+ifstream                     --  is
+ofstream                     --  os
+exception                    --  exc

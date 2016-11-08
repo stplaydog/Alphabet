@@ -1,5 +1,6 @@
 noinst_PROGRAMS = cpptest
-cpptest_SOURCES= gt_algo.cpp ../src/algo.cpp
+cpptest_SOURCES= gt_algo.cpp ../src/algo.cpp \
+				 gt_cclass.cpp
 TESTS=cpptest
 
 if DEBUG

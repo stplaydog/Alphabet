@@ -1,4 +1,4 @@
-noinst_HEADERS= algo.h carray.h 
+noinst_HEADERS= algo.h carray.h cclass.h 
 bin_PROGRAMS=cpplearn
 cpplearn_SOURCES= algo.cpp carray.cpp main.cpp
 if DEBUG

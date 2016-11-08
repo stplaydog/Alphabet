@@ -1,6 +1,5 @@
+/* Copyright (c) 2016, Oracle and/or its affiliates. All rights reserved.*/
 /**
- * Copy right YMSys, 2015,2016 Zhaoming Yin
- *
  *  @brief    Unittest of CSR graph structure. 
  *
  *  MODIFIED   (MM/DD/YY)
