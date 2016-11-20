@@ -1,0 +1,64 @@
+1) C++11 new features
+    * auto (can not be used for return value)
+    * nullptr (can not be converted to integer)
+    * range for
+    * overide and final
+    * enum class
+   ** smartptr
+   ** lambda
+    * static assert - type traits
+   ** move semantics
+2) Why citadel
+    * CFA
+    * big data
+    * alternative - long exist (state-of-the-art technology, fundamental research, and strong risk management culture.)
+    * complete a yuan fundraising
+3) Interpolate missing data
+4) Network
+    * How to find which thread is running on which core?
+        omp_get_thread_num()<<" on cpu "<<sched_getcpu()
+    * How to find udp packet drops?
+        iperf -s -u
+        iperf -u -c <IP Address of Server>
+    * How to see if hyperthreading is on?
+        grep '^flags\b' /proc/cpuinfo | tail -1
+        dmidecode -t processor | grep HTT
+    * How to see how many file descriptors a process can has open?
+        ls -l /proc/<pid>/fd | wc - l
+    * How much memory a proc has mapped?
+        ps p 3746 o pid,rss,vsz,comm
+5) python 
+    * What's the difference between python and perl?
+        old new
+        system support
+    * What's the difference between a python list and a tuple?
+        list can be changed, while tuple can not
+    * What's the difference between a python dictionary and a set?
+        map and set
+    * What is **kwargs and *args?
+        kwargs has keyword
+    * What is the issue with using **kwargs and *args?
+    * What is a python generator?
+        generator is static
+    * How to create a python module?
+    * How does garbage collection in python work?
+        similar to smart ptr
+6) c++ code
+    * Virtual inheritable, multiple inheritance, diamond pattern
+    * Upcast, class hire key – how does the compiler deal with this?.
+        - solution is to store pointers rather data from the class.
+    * Asked some basics – what OO tools does C++ give you (polymorphism, inheritance, encapsulation)
+    * How would you write the game ‘battleships’?
+    * 4x4 square, traversing outward spiral – looking for a recursive pattern.
+        http://www.tuicool.com/articles/bA3yAf
+    * Compute max product of 3 integers from an array. Start to finish. As efficient as possible.
+    * Multithreaded development experience
+7) Algo
+    If you have 3 variables, X,Y & Z. And you know the correlation between X&Y and Y&Z – can you say anything about the correlation between X&Z?
+        a)       Yes, correlation matrix between all 3. You can derive upper and lower bounds.
+                    Pearson formula.
+    If you have a large data set (1 billion time series data points) how would you
+        a)       Compute the mean of the last 1 million data points
+        b)       Compute the median of the last 1 million data points
+
+
