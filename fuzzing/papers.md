@@ -26,7 +26,7 @@
 }
 ```
 
-## Fuzz engine
+## 3. Fuzz engine
 
 ```
 @inproceedings{chen2018angora,
