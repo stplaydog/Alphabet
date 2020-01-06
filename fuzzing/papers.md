@@ -9,6 +9,16 @@
   year={2019},
   publisher={IEEE}
 }
+
+@article{khan2012comparative,
+  title={A comparative study of white box, black box and grey box testing techniques},
+  author={Khan, Mohd Ehmer and Khan, Farmeena and others},
+  journal={Int. J. Adv. Comput. Sci. Appl},
+  volume={3},
+  number={6},
+  year={2012},
+  publisher={Citeseer}
+}
 ```
 
 ## 2. Automatic Fuzz target generation
@@ -56,5 +66,21 @@
   pages={489--506},
   year={2017},
   publisher={IEEE}
+}
+
+@inproceedings{she2019neuzz,
+  title={Neuzz: Efficient fuzzing with neural program smoothing},
+  author={She, Dongdong and Pei, Kexin and Epstein, Dave and Yang, Junfeng and Ray, Baishakhi and Jana, Suman},
+  booktitle={2019 IEEE Symposium on Security and Privacy (SP)},
+  pages={803--817},
+  year={2019},
+  organization={IEEE}
+}
+
+@phdthesis{szekeres2017memory,
+  title={Memory corruption mitigation via hardening and testing},
+  author={Szekeres, L{\'a}szl{\'o}},
+  year={2017},
+  school={Ph. D. Dissertation. Stony Brook University}
 }
 ```
