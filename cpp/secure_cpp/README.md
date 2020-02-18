@@ -17,12 +17,18 @@
 ## Papers
 [A framework for on-device privilege escalation exploit execution on Android](https://www.mayrhofer.eu.org/downloads/publications/IWSSI2011-Android-Exploit-Framework.pdf)
 
+[Low-Level Software Security by Example](https://www.cis.upenn.edu/~sga001/classes/cis331f19/resources/low-level-security-by-example.pdf)
+
 ## Books
 [Code Injection in C and C++ : A Survey of Vulnerabilities and Countermeasure](http://www.cs.kuleuven.be/publicaties/rapporten/cw/CW386.pdf)
 
 [An overview of common programming security vulnerabilities and possible solutions](http://fort-knox.org/files/thesis.pdf)
 
 [Efficient countermeasures for software vulnerabilities due to memory management errors](http://fort-knox.org/files/phdthesis.pdf)
+
+[Android Security Internals Android Security Internals An In-Depth Guide to Android’s Security Architecture](http://ftp.icm.edu.pl/packages/Hacked%20Team/rcs-dev%5Cshare/HOME/MarcoL/books/Android%20Security%20Internals.pdf)
+
+[Embeded Android](http://www.staroceans.org/kernel-and-driver/%5BEmbedded.Android(2013.3)%5D.Karim.Yaghmour.pdf)
 
 # Tools
 [metasploit](https://www.metasploit.com/)
