@@ -25,3 +25,9 @@ https://www.metasploit.com/
 https://www.mayrhofer.eu.org/#about
 https://www.hackingarticles.in/linux-privilege-escalation-using-suid-binaries/
 ```
+
+# CPP
+```
+https://insights.sei.cmu.edu/sei_blog/2016/09/secure-coding-in-c11-and-c14.html
+https://insights.sei.cmu.edu/sei_blog/2017/04/cert-c-secure-coding-guidelines.html
+```
