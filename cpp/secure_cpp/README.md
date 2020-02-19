@@ -30,8 +30,12 @@
 
 [Embeded Android](http://www.staroceans.org/kernel-and-driver/%5BEmbedded.Android(2013.3)%5D.Karim.Yaghmour.pdf)
 
+[Linux Kernel Development](https://github.com/eeeyes/My-Lib-Books/blob/master/Linux%20Kernel%20Development%2C%203rd%20Edition.pdf)
+
 # Tools
 [metasploit](https://www.metasploit.com/)
+
+[LWN](https://lwn.net/)
 
 # Person
 [René Mayrhofer](https://www.mayrhofer.eu.org/#about)
@@ -42,3 +46,6 @@
 [Secure Coding in C++11 and C++14](https://insights.sei.cmu.edu/sei_blog/2016/09/secure-coding-in-c11-and-c14.html)
 
 [CERT C++ Secure Coding Guidelines](https://insights.sei.cmu.edu/sei_blog/2017/04/cert-c-secure-coding-guidelines.html)
+
+# Courses
+[CS155 Computer and Network Security](https://crypto.stanford.edu/cs155old/cs155-spring11/)
