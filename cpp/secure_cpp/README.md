@@ -14,6 +14,8 @@
 
 [Using GNU's GDB Debugger Memory Layout And The Stack](https://www.comp.nus.edu.sg/~liangzk/cs5231/stacklayout.pdf)
 
+[BUFFER OVERFLOWS DEMYSTIFIED](http://www.enderunix.org/docs/en/bof-eng.txt)
+
 ## Papers
 [A framework for on-device privilege escalation exploit execution on Android](https://www.mayrhofer.eu.org/downloads/publications/IWSSI2011-Android-Exploit-Framework.pdf)
 
