@@ -21,6 +21,8 @@
 
 [Low-Level Software Security by Example](https://www.cis.upenn.edu/~sga001/classes/cis331f19/resources/low-level-security-by-example.pdf)
 
+[Smashing The Stack For Fun And Profit](http://www-inst.eecs.berkeley.edu/~cs161/fa08/papers/stack_smashing.pdf)
+
 ## Books
 [Code Injection in C and C++ : A Survey of Vulnerabilities and Countermeasure](http://www.cs.kuleuven.be/publicaties/rapporten/cw/CW386.pdf)
 
