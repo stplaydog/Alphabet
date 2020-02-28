@@ -34,6 +34,16 @@
   title={FuzzGen: Automatic Fuzzer Generation},
   author={Ispoglou, Kyriakos K and Austin, Daniel and Mohan, Vishwath and Payer, Mathias}
 }
+
+@inproceedings {247704,
+title = {FuzzGuard: Filtering out Unreachable Inputs in Directed Grey-box Fuzzing through Deep Learning},
+booktitle = {29th {USENIX} Security Symposium ({USENIX} Security 20)},
+year = {2020},
+address = {Boston, MA},
+url = {https://www.usenix.org/conference/usenixsecurity20/presentation/zong},
+publisher = {{USENIX} Association},
+month = aug,
+}
 ```
 
 ## 3. Fuzz engine
@@ -82,5 +92,25 @@
   author={Szekeres, L{\'a}szl{\'o}},
   year={2017},
   school={Ph. D. Dissertation. Stony Brook University}
+}
+
+@inproceedings {244046,
+title = {{GREYONE}: Data Flow Sensitive Fuzzing},
+booktitle = {29th {USENIX} Security Symposium ({USENIX} Security 20)},
+year = {2020},
+address = {Boston, MA},
+url = {https://www.usenix.org/conference/usenixsecurity20/presentation/gan},
+publisher = {{USENIX} Association},
+month = aug,
+}
+
+@inproceedings {247670,
+title = {Montage: A Neural Network Language Model-Guided JavaScript Engine Fuzzer},
+booktitle = {29th {USENIX} Security Symposium ({USENIX} Security 20)},
+year = {2020},
+address = {Boston, MA},
+url = {https://www.usenix.org/conference/usenixsecurity20/presentation/lee-suyoung},
+publisher = {{USENIX} Association},
+month = aug,
 }
 ```
