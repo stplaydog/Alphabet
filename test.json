@@ -1,0 +1,20 @@
+{
+  AddressTargetPowahs : [
+    {
+      owner_address: "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      nft_core_id: "1",
+      target_powah: "15",
+      signature: "dd"
+    },{
+      owner_address: "0xF68a4b64162906efF0fF6aE34E2bB1Cd42FEf62d",
+      nft_core_id: "1",
+      target_powah: "15",
+      signature: "dd"
+    },{
+      owner_address: "0xF977814e90dA44bFA03b6295A0616a897441aceC",
+      nft_core_id: "1",
+      target_powah: "15",
+      signature: "dd"
+    }
+  ]
+}
